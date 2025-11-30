@@ -1,0 +1,2809 @@
+{
+  "project": {
+    "name" : "",
+    "project_name": "map.code.az",
+    "language": "az",
+    "output_date": "2025-01-20T10:30:00Z",
+    "entries_count": 72
+  },
+  "design_system": {
+    "colors": {
+      "primary": "#0B3D91",
+      "primary_dark": "#082A6B",
+      "secondary": "#0E5BB5",
+      "background": "#041022",
+      "card_background": "#071835",
+      "text": "#E9F0FF",
+      "muted_text": "#B6C7E6",
+      "accent": "#1EA3FF"
+    },
+    "font_family": "Inter, system-ui, Arial, sans-serif",
+    "font_weights": {
+      "regular": 400,
+      "medium": 500,
+      "bold": 700
+    },
+    "spacing_scale": [4, 8, 12, 16, 24, 32, 40],
+    "border_radius_px": 12
+  },
+  "ui_components": {
+    "header": {
+      "logo_text": "map.code.az",
+      "nav_items": ["Ana səhifə", "Xəritə", "Bölgələr", "Haqqında", "Suallar", "Əlaqə"],
+      "mobile_menu": true,
+      "search_placeholder": "Şəhər, bölgə və ya marşrut axtar..."
+    },
+    "footer": {
+      "columns": [
+        {
+          "title": "Haqqında",
+          "links": ["map.code.az haqqında", "Komanda", "Karyera"]
+        },
+        {
+          "title": "Kəşf et",
+          "links": ["Bölgələr", "Xəritə", "Top Marşrutlar"]
+        },
+        {
+          "title": "Dəstək",
+          "links": ["Suallar", "Əlaqə", "Problem bildir"]
+        }
+      ],
+      "copyright_text": "© {year} map.code.az"
+    },
+    "about_page": {
+      "title": "map.code.az haqqında",
+      "intro": "Azərbaycanın bütün bölgələrini, xüsusilə dağlıq əraziləri kəşf etmək üçün rəqəmsal platforma.",
+      "sections": [
+        {
+          "heading": "Missiyamız",
+          "content": "Azərbaycanın təbii gözəlliklərini və dağ marşrutlarını yerli və xarici turistlərə tanıtmaq."
+        },
+        {
+          "heading": "Əhatə dairəmiz",
+          "content": "Azərbaycanın 72 bölgəsi, dağ marşrutları, tarixi yerlər və təbii cazibələr."
+        },
+        {
+          "heading": "Töhfə ver",
+          "content": "Yeni marşrutlar və ya düzəlişlər təklif etmək üçün əlaqə formasından istifadə edin."
+        }
+      ]
+    },
+    "faq_component": {
+      "faqs": [
+        {
+          "q": "Marşrut məlumatları nə qədər aktual?",
+          "a": "Marşrutlar müntəzəm yenilənir. Hər marşrutun təfərrüatlarında son yeniləmə tarixinə baxa bilərsiniz."
+        },
+        {
+          "q": "Dağ marşrutları üçün bələdçi tələb olunur?",
+          "a": "Bəzi marşrutlar yerli bələdçi tövsiyə edir. Hər marşrutun təhlükəsizlik məsləhətlərinə baxın."
+        },
+        {
+          "q": "Problem necə bildirim?",
+          "a": "Əlaqə formasından və ya footer-dəki 'Problem bildir' linkindən istifadə edin."
+        },
+        {
+          "q": "Bilet necə ala bilərəm?",
+          "a": "Hər bölgənin səhifəsində 'Bilet al' düyməsini klikləyərək rezervasiya edə bilərsiniz."
+        },
+        {
+          "q": "Ödəniş üsulları hansılardır?",
+          "a": "Bank kartı, nağd və ya onlayn ödəniş sistemləri ilə ödəniş edə bilərsiniz."
+        }
+      ]
+    }
+  },
+  "regions": [
+    {
+      "id": "qabala",
+      "region_name": "Qəbələ",
+      "short_description": "Meşələr, silsilə dağlar və tarixi abidələrlə zəngin dağlıq ərazi.",
+      "image": "https://avatars.mds.yandex.net/i?id=10906cb1f0139b5992b3b341d9185f93f30d63b6-5322671-images-thumbs&n=13",
+      "hero_image": "https://avatars.mds.yandex.net/i?id=10906cb1f0139b5992b3b341d9185f93f30d63b6-5322671-images-thumbs&n=13",
+      "best_known_for": ["Gəzinti", "Dağ mənzərələri", "Tarix"],
+      "mountain_routes": [
+        {
+          "route_name": "Tufandağ Silsiləsi Dövrəsi",
+          "difficulty": "Orta",
+          "length_km": 12.5,
+          "estimated_time_hours": 5,
+          "highlights": ["Mənzərəli silsilə", "Panoramik zirvə", "Meşə hissələri"],
+          "safety_tips": ["İsti geyim gətirin", "Yola çıxmazdan əvvəl hava şəraitini yoxlayın"],
+          "ticket_price_azn": 25
+        },
+        {
+          "route_name": "Vandam Şəlaləsi Cığırı",
+          "difficulty": "Asan",
+          "length_km": 6.0,
+          "estimated_time_hours": 3,
+          "highlights": ["Gözəl şəlalə", "Meşə yolu", "Piknik yerləri"],
+          "safety_tips": ["Rahat ayaqqabı geyinin", "Su götürün"],
+          "ticket_price_azn": 15
+        }
+      ],
+      "main_attractions": [
+        {
+          "name": "Tufandağ Dağları",
+          "type": "Təbiət",
+          "description": "Cığırlar və baxış nöqtələri ilə məşhur dağlıq ərazi.",
+          "recommended_visiting_season": "May–Oktyabr",
+          "ticket_price_azn": 20
+        },
+        {
+          "name": "Qəbələ Tarixi Mərkəzi",
+          "type": "Tarix",
+          "description": "Qədim Qafqaz Albaniyasının paytaxtı olan tarixi ərazi.",
+          "recommended_visiting_season": "İl boyu",
+          "ticket_price_azn": 10
+        }
+      ],
+      "transportation": {
+        "how_to_get_there": "Bakıdan avtomobillə (təxminən 3-4 saat) və ya Qəbələ şəhərinə regional avtobusla.",
+        "public_transport": ["Bakıdan Qəbələyə avtobus", "Marşrut taksi xidmətləri"],
+        "taxi_estimated_cost_azn": "100-150",
+        "road_quality": "Yaxşı"
+      },
+      "best_time_to_visit": "May-Oktyabr",
+      "tags": ["Gəzinti", "Dağlar", "Təbiət", "Macəra"]
+    },
+    {
+      "id": "quba",
+      "region_name": "Quba",
+      "short_description": "Yüksək dağlar, alma bağları və rəngarəng kəndlərlə tanınan bölgə.",
+      "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/17/88/40/b4/quba-azerbaijan-region.jpg?w=1000&h=1000&s=1",
+      "hero_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/17/88/40/b4/quba-azerbaijan-region.jpg?w=1000&h=1000&s=1",
+      "best_known_for": ["Xınalıq kəndi", "Alma bağları", "Dağ mənzərələri"],
+      "mountain_routes": [
+        {
+          "route_name": "Xınalıq Kəndinə Yürüyüş",
+          "difficulty": "Çətin",
+          "length_km": 18.0,
+          "estimated_time_hours": 8,
+          "highlights": ["Qədim kənd", "Nəfəsəlayıcı mənzərələr", "Mədəni təcrübə"],
+          "safety_tips": ["Bələdçi tövsiyə olunur", "Yüksək hündürlük üçün hazırlaşın"],
+          "ticket_price_azn": 40
+        },
+        {
+          "route_name": "Qəçrəş Meşələri Cığırı",
+          "difficulty": "Asan",
+          "length_km": 8.0,
+          "estimated_time_hours": 4,
+          "highlights": ["Sıx meşə", "Çay mənzərələri", "Quş müşahidəsi"],
+          "safety_tips": ["Yağışlı havada ehtiyatlı olun"],
+          "ticket_price_azn": 20
+        }
+      ],
+      "main_attractions": [
+        {
+          "name": "Xınalıq Kəndi",
+          "type": "Mədəniyyət",
+          "description": "Azərbaycanda ən yüksək və ən qədim yaşayış məntəqələrindən biri.",
+          "recommended_visiting_season": "İyun–Sentyabr",
+          "ticket_price_azn": 15
+        },
+        {
+          "name": "Qırmızı Qəsəbə",
+          "type": "Tarix",
+          "description": "Avropa xaricində ən böyük yəhudi icması.",
+          "recommended_visiting_season": "İl boyu",
+          "ticket_price_azn": 5
+        }
+      ],
+      "transportation": {
+        "how_to_get_there": "Bakıdan avtomobillə (təxminən 2.5 saat) və ya avtobus xidmətləri.",
+        "public_transport": ["Bakıdan Qubaya avtobus", "Marşrut taksi"],
+        "taxi_estimated_cost_azn": "80-120",
+        "road_quality": "Yaxşı"
+      },
+      "best_time_to_visit": "May-Sentyabr",
+      "tags": ["Dağlar", "Mədəniyyət", "Gəzinti", "Tarix"]
+    },
+    {
+      "id": "qusar",
+      "region_name": "Qusar",
+      "short_description": "Şahdağ Milli Parkı və qış idman kurortları ilə məşhur dağlıq rayon.",
+      "image": "https://avatars.mds.yandex.net/i?id=c5edb4cf5c9acb351af74550f110c299bb243ee3-10576882-images-thumbs&n=13",
+      "hero_image": "https://avatars.mds.yandex.net/i?id=c5edb4cf5c9acb351af74550f110c299bb243ee3-10576882-images-thumbs&n=13",
+      "best_known_for": ["Şahdağ kurort", "Dağ gəzintiləri", "Qış idmanı"],
+      "mountain_routes": [
+        {
+          "route_name": "Şahdağ Zirvəsi Yürüyüşü",
+          "difficulty": "Çətin",
+          "length_km": 22.0,
+          "estimated_time_hours": 10,
+          "highlights": ["Ən yüksək zirvə", "Buzlaq mənzərələri", "Alpinist təcrübəsi"],
+          "safety_tips": ["Təcrübəli bələdçi mütləqdir", "Alpinist avadanlığı lazımdır"],
+          "ticket_price_azn": 60
+        },
+        {
+          "route_name": "Laza Kəndi Cığırı",
+          "difficulty": "Orta",
+          "length_km": 10.0,
+          "estimated_time_hours": 5,
+          "highlights": ["Dağ kəndi", "Çoban həyatı", "Təbii mənzərələr"],
+          "safety_tips": ["Yerli bələdçi tövsiyə olunur"],
+          "ticket_price_azn": 30
+        }
+      ],
+      "main_attractions": [
+        {
+          "name": "Şahdağ Milli Parkı",
+          "type": "Təbiət",
+          "description": "Azərbaycanın ən böyük milli parkı, zəngin flora və fauna.",
+          "recommended_visiting_season": "İyun–Sentyabr",
+          "ticket_price_azn": 25
+        },
+        {
+          "name": "Şahdağ Qış-Yay Turizm Kompleksi",
+          "type": "Müasir",
+          "description": "Qış və yay idman fəaliyyətləri üçün müasir kurort.",
+          "recommended_visiting_season": "İl boyu",
+          "ticket_price_azn": 50
+        }
+      ],
+      "transportation": {
+        "how_to_get_there": "Bakıdan avtomobillə (təxminən 3 saat) və ya Qusara avtobus.",
+        "public_transport": ["Bakıdan avtobus", "Kurort transferləri"],
+        "taxi_estimated_cost_azn": "100-140",
+        "road_quality": "Yaxşı"
+      },
+      "best_time_to_visit": "İyun-Sentyabr (yay), Dekabr-Mart (qış)",
+      "tags": ["Qış idmanı", "Dağlar", "Gəzinti", "Kurort"]
+    },
+    {
+      "id": "sheki",
+      "region_name": "Şəki",
+      "short_description": "Tarixi memarlıq, xan sarayı və halva ilə məşhur qədim şəhər.",
+      "image": "https://ak-d.tripcdn.com/images/0HJ0p12000hatienj0531.jpg",
+      "hero_image": "https://ak-d.tripcdn.com/images/0HJ0p12000hatienj0531.jpg",
+      "best_known_for": ["Xan Sarayı", "Tarixi memarlıq", "Təbiət"],
+      "mountain_routes": [
+        {
+          "route_name": "Kişdağ Meşələri Gəzintisi",
+          "difficulty": "Asan",
+          "length_km": 7.0,
+          "estimated_time_hours": 3.5,
+          "highlights": ["Qədim meşə", "Təmiz hava", "Piknik zonaları"],
+          "safety_tips": ["Rahat geyim geyinin"],
+          "ticket_price_azn": 15
+        },
+        {
+          "route_name": "İlisu Kəndinə Marşrut",
+          "difficulty": "Orta",
+          "length_km": 14.0,
+          "estimated_time_hours": 6,
+          "highlights": ["Dağ kəndi", "Şəlalələr", "Tarixi qala"],
+          "safety_tips": ["Yol şəraiti yoxlanmalıdır"],
+          "ticket_price_azn": 25
+        }
+      ],
+      "main_attractions": [
+        {
+          "name": "Şəki Xan Sarayı",
+          "type": "Tarix",
+          "description": "18-ci əsrdən qalan UNESCO Dünya İrsi sarayı.",
+          "recommended_visiting_season": "İl boyu",
+          "ticket_price_azn": 10
+        },
+        {
+          "name": "Karvansara",
+          "type": "Tarix",
+          "description": "Qədim İpək Yolu üzərində tarixi mehmanxana.",
+          "recommended_visiting_season": "İl boyu",
+          "ticket_price_azn": 5
+        }
+      ],
+      "transportation": {
+        "how_to_get_there": "Bakıdan avtomobillə (təxminən 4 saat) və ya avtobus xidmətləri.",
+        "public_transport": ["Bakıdan Şəkiyə avtobus", "Marşrut taksi"],
+        "taxi_estimated_cost_azn": "100-150",
+        "road_quality": "Yaxşı"
+      },
+      "best_time_to_visit": "Aprel-Oktyabr",
+      "tags": ["Tarix", "Mədəniyyət", "Təbiət", "UNESCO"]
+    },
+    {
+      "id": "zaqatala",
+      "region_name": "Zaqatala",
+      "short_description": "Zəngin meşələr, şəlalələr və çoxmədəniyyətli irs.",
+      "image": "https://gezmeli.az/wp-content/uploads/2020/07/maxresdefault-2-1.jpg",
+      "hero_image": "https://gezmeli.az/wp-content/uploads/2020/07/maxresdefault-2-1.jpg",
+      "best_known_for": ["Meşələr", "Şəlalələr", "Avarlılar mədəniyyəti"],
+      "mountain_routes": [
+        {
+          "route_name": "Ağ Dağ Yürüyüşü",
+          "difficulty": "Orta",
+          "length_km": 11.0,
+          "estimated_time_hours": 5.5,
+          "highlights": ["Ağ qayalar", "Panoramik mənzərələr", "Nadir bitkilər"],
+          "safety_tips": ["Bələdçi tövsiyə olunur"],
+          "ticket_price_azn": 30
+        }
+      ],
+      "main_attractions": [
+        {
+          "name": "Zaqatala Qoruğu",
+          "type": "Təbiət",
+          "description": "Qafqaz cəngəlliklərində nadir heyvanlar və bitkilər.",
+          "recommended_visiting_season": "May-Oktyabr",
+          "ticket_price_azn": 20
+        }
+      ],
+      "transportation": {
+        "how_to_get_there": "Bakıdan avtomobillə (təxminən 5 saat) və ya avtobus.",
+        "public_transport": ["Bakıdan avtobus"],
+        "taxi_estimated_cost_azn": "120-180",
+        "road_quality": "Yaxşı"
+      },
+      "best_time_to_visit": "May-Sentyabr",
+      "tags": ["Meşə", "Təbiət", "Gəzinti", "Mədəniyyət"]
+    },
+    {
+      "id": "lerik",
+      "region_name": "Lerik",
+      "short_description": "Uzunömürlülük bölgəsi, subtropik iqlim və dağ çayları.",
+      "image": "https://veter-s.ru/wp-content/uploads/2022/05/c1651ab5-4e6a-4583-b0b7-a9d025b36d09.jpg",
+      "hero_image": "https://veter-s.ru/wp-content/uploads/2022/05/c1651ab5-4e6a-4583-b0b7-a9d025b36d09.jpg",
+      "best_known_for": ["Uzunömürlülük", "Dağ çayları", "Təmiz hava"],
+      "mountain_routes": [
+        {
+          "route_name": "Osturə Yürüyüşü",
+          "difficulty": "Orta",
+          "length_km": 9.0,
+          "estimated_time_hours": 4.5,
+          "highlights": ["Dağ kəndləri", "Çay mənzərələri", "Yerli mədəniyyət"],
+          "safety_tips": ["Su ehtiyatı götürün"],
+          "ticket_price_azn": 20
+        }
+      ],
+      "main_attractions": [
+        {
+          "name": "Uzunömürlülər Muzeyi",
+          "type": "Mədəniyyət",
+          "description": "Bölgənin uzunömürlülük fenomenini təqdim edən muzey.",
+          "recommended_visiting_season": "İl boyu",
+          "ticket_price_azn": 8
+        }
+      ],
+      "transportation": {
+        "how_to_get_there": "Bakıdan avtomobillə (təxminən 5 saat).",
+        "public_transport": ["Bakıdan avtobus (məhdud)"],
+        "taxi_estimated_cost_azn": "150-200",
+        "road_quality": "Orta"
+      },
+      "best_time_to_visit": "May-Oktyabr",
+      "tags": ["Dağlar", "Mədəniyyət", "Təbiət", "Sağlamlıq"]
+    },
+    {
+      "id": "baki",
+      "region_name": "Bakı",
+      "short_description": "Azərbaycanın paytaxtı, Xəzər dənizi sahilində müasir metropol.",
+      "image": "https://avatars.mds.yandex.net/i?id=7bc514ae1516766a53beb2ba97e2a81b_l-4120027-images-thumbs&n=13",
+      "hero_image": "https://avatars.mds.yandex.net/i?id=7bc514ae1516766a53beb2ba97e2a81b_l-4120027-images-thumbs&n=13",
+      "best_known_for": ["Flame Towers", "İçərişəhər", "Sahil bulvarı"],
+      "mountain_routes": [
+        {
+          "route_name": "Yanar Dağ Gəzintisi",
+          "difficulty": "Asan",
+          "length_km": 3.0,
+          "estimated_time_hours": 2,
+          "highlights": ["Təbii qaz alovu", "Unikal fenomen", "Gecə mənzərəsi"],
+          "safety_tips": ["Alovdan təhlükəsiz məsafə saxlayın"],
+          "ticket_price_azn": 10
+        }
+      ],
+      "main_attractions": [
+        {
+          "name": "İçərişəhər",
+          "type": "Tarix",
+          "description": "UNESCO Dünya İrsi, qədim Bakı şəhərinin tarixi mərkəzi.",
+          "recommended_visiting_season": "İl boyu",
+          "ticket_price_azn": 15
+        },
+        {
+          "name": "Flame Towers",
+          "type": "Müasir",
+          "description": "Bakının simvolu olan müasir göydələnlər kompleksi.",
+          "recommended_visiting_season": "İl boyu",
+          "ticket_price_azn": 20
+        }
+      ],
+      "transportation": {
+        "how_to_get_there": "Beynəlxalq hava limanı, metro, avtobus şəbəkəsi.",
+        "public_transport": ["Metro", "Avtobus", "Taksi"],
+        "taxi_estimated_cost_azn": "5-20",
+        "road_quality": "Əla"
+      },
+      "best_time_to_visit": "Aprel-İyun, Sentyabr-Oktyabr",
+      "tags": ["Şəhər", "Tarix", "Müasir", "Mədəniyyət"]
+    },
+    {
+      "id": "sumqayit",
+      "region_name": "Sumqayıt",
+      "short_description": "Xəzər sahilində sənaye və yaşayış şəhəri.",
+      "image": "https://avatars.mds.yandex.net/i?id=b46714dfb1c48a497591afa0d2a76e64363eaf27-3872711-images-thumbs&n=13",
+      "hero_image": "https://avatars.mds.yandex.net/i?id=b46714dfb1c48a497591afa0d2a76e64363eaf27-3872711-images-thumbs&n=13",
+      "best_known_for": ["Sahil parkı", "Sənaye", "Dəniz mənzərəsi"],
+      "mountain_routes": [
+        {
+          "route_name": "Sahil Bulvarı Gəzintisi",
+          "difficulty": "Asan",
+          "length_km": 5.0,
+          "estimated_time_hours": 2,
+          "highlights": ["Dəniz mənzərəsi", "Parklar", "İdman zonaları"],
+          "safety_tips": ["Günəşdən qorunma vasitələri götürün"],
+          "ticket_price_azn": 0
+        }
+      ],
+      "main_attractions": [
+        {
+          "name": "Sumqayıt Bulvarı",
+          "type": "İstirahət",
+          "description": "Xəzər sahilində müasir bulvar və əyləncə zonası.",
+          "recommended_visiting_season": "May-Sentyabr",
+          "ticket_price_azn": 0
+        }
+      ],
+      "transportation": {
+        "how_to_get_there": "Bakıdan avtomobillə 30 dəqiqə, avtobus və ya qatar.",
+        "public_transport": ["Avtobus", "Elektrik qatar"],
+        "taxi_estimated_cost_azn": "20-30",
+        "road_quality": "Yaxşı"
+      },
+      "best_time_to_visit": "May-Sentyabr",
+      "tags": ["Şəhər", "Sahil", "İstirahət"]
+    },
+    {
+      "id": "gence",
+      "region_name": "Gəncə",
+      "short_description": "Azərbaycanın ikinci böyük şəhəri, zəngin tarixi və mədəni irs.",
+      "image": "https://avatars.mds.yandex.net/i?id=20cd006915ac80ede855d362a4636470_l-12422300-images-thumbs&n=13",
+      "hero_image": "https://avatars.mds.yandex.net/i?id=20cd006915ac80ede855d362a4636470_l-12422300-images-thumbs&n=13",
+      "best_known_for": ["Nizami məqbərəsi", "Şüşə qapı", "Tarixi binalar"],
+      "mountain_routes": [
+        {
+          "route_name": "Göygöl Milli Parkı Marşrutu",
+          "difficulty": "Orta",
+          "length_km": 8.0,
+          "estimated_time_hours": 4,
+          "highlights": ["Göygöl gölü", "Dağ mənzərələri", "Meşə yolları"],
+          "safety_tips": ["Bələdçi tövsiyə olunur"],
+          "ticket_price_azn": 20
+        }
+      ],
+      "main_attractions": [
+        {
+          "name": "Nizami Məqbərəsi",
+          "type": "Tarix",
+          "description": "Böyük Azərbaycan şairi Nizami Gəncəvinin məqbərəsi.",
+          "recommended_visiting_season": "İl boyu",
+          "ticket_price_azn": 5
+        },
+        {
+          "name": "Şüşə Qapı",
+          "type": "Tarix",
+          "description": "Qədim Gəncə qalasının tarixi darvazası.",
+          "recommended_visiting_season": "İl boyu",
+          "ticket_price_azn": 3
+        }
+      ],
+      "transportation": {
+        "how_to_get_there": "Bakıdan avtomobillə 4 saat, qatar və ya avtobus.",
+        "public_transport": ["Avtobus", "Qatar"],
+        "taxi_estimated_cost_azn": "100-150",
+        "road_quality": "Yaxşı"
+      },
+      "best_time_to_visit": "Aprel-Oktyabr",
+      "tags": ["Şəhər", "Tarix", "Mədəniyyət", "Təbiət"]
+    },
+    {
+      "id": "mingecevir",
+      "region_name": "Mingəçevir",
+      "short_description": "Kür çayı üzərində su anbarı və elektrik stansiyası ilə məşhur şəhər.",
+      "image": "https://avatars.dzeninfra.ru/get-zen_doc/1245197/pub_63861536009c3669802edafa_63861924eed1422c76a404b3/scale_1200",
+      "hero_image": "https://avatars.dzeninfra.ru/get-zen_doc/1245197/pub_63861536009c3669802edafa_63861924eed1422c76a404b3/scale_1200",
+      "best_known_for": ["Su anbarı", "Elektrik stansiyası", "Balıqçılıq"],
+      "mountain_routes": [
+        {
+          "route_name": "Su Anbarı Sahil Gəzintisi",
+          "difficulty": "Asan",
+          "length_km": 6.0,
+          "estimated_time_hours": 3,
+          "highlights": ["Su mənzərəsi", "Quş müşahidəsi", "Balıqçılıq yerləri"],
+          "safety_tips": ["Günəş şapkası götürün"],
+          "ticket_price_azn": 5
+        }
+      ],
+      "main_attractions": [
+        {
+          "name": "Mingəçevir Su Anbarı",
+          "type": "Təbiət",
+          "description": "Azərbaycanın ən böyük süni gölü və istirahət zonası.",
+          "recommended_visiting_season": "May-Sentyabr",
+          "ticket_price_azn": 10
+        }
+      ],
+      "transportation": {
+        "how_to_get_there": "Bakıdan avtomobillə 4 saat, avtobus xidməti.",
+        "public_transport": ["Avtobus"],
+        "taxi_estimated_cost_azn": "100-140",
+        "road_quality": "Yaxşı"
+      },
+      "best_time_to_visit": "May-Sentyabr",
+      "tags": ["Şəhər", "Su", "İstirahət", "Balıqçılıq"]
+    },
+    {
+      "id": "naxcivan",
+      "region_name": "Naxçıvan",
+      "short_description": "Muxtar respublika, qədim tarix və unikal memarlıq abidələri.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/%C6%8Flinc%C9%99%C3%A7ay_xan%C9%99gah%C4%B1_Nax%C3%A7%C4%B1van.jpg/330px-%C6%8Flinc%C9%99%C3%A7ay_xan%C9%99gah%C4%B1_Nax%C3%A7%C4%B1van.jpg",
+      "hero_image": "https://images.unsplash.com/photo-1542401886-65d6c61db217?w=1920&h=1080&fit=crop",
+      "best_known_for": ["Möminə Xatun türbəsi", "Duzdaq", "Qədim abidələr"],
+      "mountain_routes": [
+        {
+          "route_name": "İlandağ Yürüyüşü",
+          "difficulty": "Orta",
+          "length_km": 10.0,
+          "estimated_time_hours": 5,
+          "highlights": ["Dağ zirvəsi", "Panoramik mənzərə", "Qədim qalalar"],
+          "safety_tips": ["Su ehtiyatı götürün", "Bələdçi tövsiyə olunur"],
+          "ticket_price_azn": 25
+        }
+      ],
+      "main_attractions": [
+        {
+          "name": "Möminə Xatun Türbəsi",
+          "type": "Tarix",
+          "description": "12-ci əsrdən qalan unikal memarlıq abidəsi.",
+          "recommended_visiting_season": "İl boyu",
+          "ticket_price_azn": 8
+        },
+        {
+          "name": "Duzdaq",
+          "type": "Sağlamlıq",
+          "description": "Duz mağarasında müalicə mərkəzi.",
+          "recommended_visiting_season": "İl boyu",
+          "ticket_price_azn": 30
+        }
+      ],
+      "transportation": {
+        "how_to_get_there": "Bakıdan təyyarə (1 saat) və ya İran üzərindən avtomobil.",
+        "public_transport": ["Təyyarə"],
+        "taxi_estimated_cost_azn": "30-50",
+        "road_quality": "Yaxşı"
+      },
+      "best_time_to_visit": "Aprel-Oktyabr",
+      "tags": ["Tarix", "Mədəniyyət", "Dağlar", "Sağlamlıq"]
+    },
+    {
+      "id": "sirvan",
+      "region_name": "Şirvan",
+      "short_description": "Xəzər sahilində şəhər, tarixi və müasir inkişaf mərkəzi.",
+      "image": "https://apa.az/storage/news/2024/july/21/resize/669c82ffd7289669c82ffd728a1721533183669c82ffd7287669c82ffd7288.jpg",
+      "hero_image": "https://apa.az/storage/news/2024/july/21/resize/669c82ffd7289669c82ffd728a1721533183669c82ffd7287669c82ffd7288.jpg",
+      "best_known_for": ["Şirvan Milli Parkı", "Sahil", "Quş müşahidəsi"],
+      "mountain_routes": [
+        {
+          "route_name": "Şirvan Milli Parkı Ekomarşrutu",
+          "difficulty": "Asan",
+          "length_km": 7.0,
+          "estimated_time_hours": 3,
+          "highlights": ["Quş müşahidəsi", "Ceyran sürüləri", "Yarımçöl landşaftı"],
+          "safety_tips": ["Durbin götürün", "Günəşdən qorunun"],
+          "ticket_price_azn": 15
+        }
+      ],
+      "main_attractions": [
+        {
+          "name": "Şirvan Milli Parkı",
+          "type": "Təbiət",
+          "description": "Nadir quş növləri və ceyranların yaşadığı qoruq.",
+          "recommended_visiting_season": "Mart-May, Sentyabr-Noyabr",
+          "ticket_price_azn": 20
+        }
+      ],
+      "transportation": {
+        "how_to_get_there": "Bakıdan avtomobillə 2 saat, avtobus xidməti.",
+        "public_transport": ["Avtobus"],
+        "taxi_estimated_cost_azn": "60-80",
+        "road_quality": "Yaxşı"
+      },
+      "best_time_to_visit": "Mart-May, Sentyabr-Noyabr",
+      "tags": ["Təbiət", "Quş müşahidəsi", "Ekologiya"]
+    },
+    {
+      "id": "lenkoran",
+      "region_name": "Lənkəran",
+      "short_description": "Subtropik iqlim, çay plantasiyaları və Talış dağları.",
+      "image": "https://www.medassist.ru/upload/iblock/bac/w0cg5xeatbimt2mw2eugobmuq17eo7po/Lenkoran4.jpg",
+      "hero_image": "https://www.medassist.ru/upload/iblock/bac/w0cg5xeatbimt2mw2eugobmuq17eo7po/Lenkoran4.jpg",
+      "best_known_for": ["Çay plantasiyaları", "Talış dağları", "İsti bulaqlar"],
+      "mountain_routes": [
+        {
+          "route_name": "Hirkan Milli Parkı Marşrutu",
+          "difficulty": "Orta",
+          "length_km": 12.0,
+          "estimated_time_hours": 6,
+          "highlights": ["Relikt meşələr", "Nadir bitkilər", "Şəlalələr"],
+          "safety_tips": ["Yağışlı hava ehtimalı", "Bələdçi tövsiyə olunur"],
+          "ticket_price_azn": 30
+        }
+      ],
+      "main_attractions": [
+        {
+          "name": "Hirkan Milli Parkı",
+          "type": "Təbiət",
+          "description": "UNESCO Dünya İrsi, qədim relikt meşələr.",
+          "recommended_visiting_season": "May-Oktyabr",
+          "ticket_price_azn": 25
+        },
+        {
+          "name": "İsti Bulaq",
+          "type": "Sağlamlıq",
+          "description": "Müalicəvi termal bulaqlar kompleksi.",
+          "recommended_visiting_season": "İl boyu",
+          "ticket_price_azn": 20
+        }
+      ],
+      "transportation": {
+        "how_to_get_there": "Bakıdan avtomobillə 4 saat, avtobus xidməti.",
+        "public_transport": ["Avtobus"],
+        "taxi_estimated_cost_azn": "100-150",
+        "road_quality": "Yaxşı"
+      },
+      "best_time_to_visit": "May-Oktyabr",
+      "tags": ["Subtropik", "Təbiət", "Çay", "Sağlamlıq"]
+    },
+    {
+      "id": "yevlax",
+      "region_name": "Yevlax",
+      "short_description": "Mərkəzi Azərbaycanda əhəmiyyətli nəqliyyat qovşağı.",
+      "image": "https://i.ytimg.com/vi/7vDJ9xa7s8A/maxresdefault.jpg",
+      "hero_image": "https://i.ytimg.com/vi/7vDJ9xa7s8A/maxresdefault.jpg",
+      "best_known_for": ["Nəqliyyat mərkəzi", "Kənd təsərrüfatı", "Tarixi yerlər"],
+      "mountain_routes": [
+        {
+          "route_name": "Aran Düzü Velomarşrutu",
+          "difficulty": "Asan",
+          "length_km": 15.0,
+          "estimated_time_hours": 3,
+          "highlights": ["Düzənlik mənzərəsi", "Kənd həyatı", "Tarla landşaftları"],
+          "safety_tips": ["Velosiped tövsiyə olunur", "Su götürün"],
+          "ticket_price_azn": 10
+        }
+      ],
+      "main_attractions": [
+        {
+          "name": "Yevlax Tarixi Mərkəzi",
+          "type": "Tarix",
+          "description": "Şəhərin tarixi hissəsi və qədim binalar.",
+          "recommended_visiting_season": "İl boyu",
+          "ticket_price_azn": 5
+        }
+      ],
+      "transportation": {
+        "how_to_get_there": "Bakıdan avtomobillə 3.5 saat, qatar və avtobus.",
+        "public_transport": ["Qatar", "Avtobus"],
+        "taxi_estimated_cost_azn": "90-120",
+        "road_quality": "Yaxşı"
+      },
+      "best_time_to_visit": "Aprel-Oktyabr",
+      "tags": ["Şəhər", "Nəqliyyat", "Kənd təsərrüfatı"]
+    },
+    {
+      "id": "ismayilli",
+      "region_name": "İsmayıllı",
+      "short_description": "Dağlıq ərazi, meşələr və tarixi kəndlər.",
+      "image": "https://resize.tripster.ru/Uh7wJzD94YAUagRlyULy8_uNFyg=/fit-in/1200x1000/filters:no_upscale()/https://cdn.tripster.ru/photos/e6df75ad-a85d-4c8b-a875-7ca068098d93.jpg",
+      "hero_image": "https://resize.tripster.ru/Uh7wJzD94YAUagRlyULy8_uNFyg=/fit-in/1200x1000/filters:no_upscale()/https://cdn.tripster.ru/photos/e6df75ad-a85d-4c8b-a875-7ca068098d93.jpg",
+      "best_known_for": ["Lahıc kəndi", "Sənətkarlıq", "Dağ mənzərələri"],
+      "mountain_routes": [
+        {
+          "route_name": "Lahıc Kəndinə Yürüyüş",
+          "difficulty": "Orta",
+          "length_km": 9.0,
+          "estimated_time_hours": 4.5,
+          "highlights": ["Qədim kənd", "Mis sənətkarlığı", "Daş döşəmə yollar"],
+          "safety_tips": ["Rahat ayaqqabı", "Bələdçi tövsiyə olunur"],
+          "ticket_price_azn": 20
+        }
+      ],
+      "main_attractions": [
+        {
+          "name": "Lahıc Kəndi",
+          "type": "Mədəniyyət",
+          "description": "Qədim mis sənətkarlığı mərkəzi, unikal memarlıq.",
+          "recommended_visiting_season": "May-Oktyabr",
+          "ticket_price_azn": 10
+        },
+        {
+          "name": "İvanovka Alman Kəndi",
+          "type": "Mədəniyyət",
+          "description": "Tarixi alman köçkünlərinin kəndi.",
+          "recommended_visiting_season": "İl boyu",
+          "ticket_price_azn": 5
+        }
+      ],
+      "transportation": {
+        "how_to_get_there": "Bakıdan avtomobillə 3 saat, avtobus xidməti.",
+        "public_transport": ["Avtobus"],
+        "taxi_estimated_cost_azn": "80-110",
+        "road_quality": "Orta"
+      },
+      "best_time_to_visit": "May-Oktyabr",
+      "tags": ["Dağlar", "Sənətkarlıq", "Mədəniyyət", "Tarix"]
+    },
+    {
+      "id": "qax",
+      "region_name": "Qax",
+      "short_description": "Şimal-qərb dağlıq bölgə, meşələr və qədim qalalar.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Qalacha.jpg/500px-Qalacha.jpg",
+      "hero_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Qalacha.jpg/500px-Qalacha.jpg",
+      "best_known_for": ["İlisu şəlaləsi", "Qədim qalalar", "Meşə landşaftları"],
+      "mountain_routes": [
+        {
+          "route_name": "İlisu Şəlaləsi Marşrutu",
+          "difficulty": "Orta",
+          "length_km": 11.0,
+          "estimated_time_hours": 5,
+          "highlights": ["Gözəl şəlalə", "Meşə yolları", "Dağ çayları"],
+          "safety_tips": ["Yağışlı havada ehtiyatlı olun"],
+          "ticket_price_azn": 25
+        }
+      ],
+      "main_attractions": [
+        {
+          "name": "İlisu Kəndi və Şəlaləsi",
+          "type": "Təbiət",
+          "description": "Tarixi kənd və təəssüratlandırıcı şəlalə.",
+          "recommended_visiting_season": "May-Sentyabr",
+          "ticket_price_azn": 15
+        },
+        {
+          "name": "Qax Qalası",
+          "type": "Tarix",
+          "description": "Qədim müdafiə qalası qalıqları.",
+          "recommended_visiting_season": "İl boyu",
+          "ticket_price_azn": 8
+        }
+      ],
+      "transportation": {
+        "how_to_get_there": "Bakıdan avtomobillə 5 saat, avtobus xidməti.",
+        "public_transport": ["Avtobus"],
+        "taxi_estimated_cost_azn": "120-160",
+        "road_quality": "Orta"
+      },
+      "best_time_to_visit": "May-Sentyabr",
+      "tags": ["Dağlar", "Şəlalələr", "Tarix", "Təbiət"]
+    },
+    {
+      "id": "balaken",
+      "region_name": "Balakən",
+      "short_description": "Qafqaz dağlarının ətəyində, zəngin meşələr və çaylar.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Balaken%2C_Azerbaijan.jpg/1600px-Balaken%2C_Azerbaijan.jpg",
+      "hero_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Balaken%2C_Azerbaijan.jpg/1600px-Balaken%2C_Azerbaijan.jpg",
+      "best_known_for": ["Meşələr", "Çaylar", "Avarlılar mədəniyyəti"],
+      "mountain_routes": [
+        {
+          "route_name": "Katex Meşələri Gəzintisi",
+          "difficulty": "Asan",
+          "length_km": 8.0,
+          "estimated_time_hours": 4,
+          "highlights": ["Sıx meşə", "Çay mənzərələri", "Quş səsləri"],
+          "safety_tips": ["Meşədə yolu itirməyin"],
+          "ticket_price_azn": 15
+        }
+      ],
+      "main_attractions": [
+        {
+          "name": "Balakən Meşələri",
+          "type": "Təbiət",
+          "description": "Zəngin flora və fauna ilə qədim meşə ərazisi.",
+          "recommended_visiting_season": "May-Oktyabr",
+          "ticket_price_azn": 12
+        }
+      ],
+      "transportation": {
+        "how_to_get_there": "Bakıdan avtomobillə 5.5 saat, avtobus xidməti.",
+        "public_transport": ["Avtobus"],
+        "taxi_estimated_cost_azn": "130-170",
+        "road_quality": "Orta"
+      },
+      "best_time_to_visit": "May-Sentyabr",
+      "tags": ["Meşə", "Təbiət", "Mədəniyyət"]
+    },
+    {
+      "id": "oguz",
+      "region_name": "Oğuz",
+      "short_description": "Dağlıq ərazi, mineral sular və təmiz hava.",
+      "image": "https://avatars.mds.yandex.net/i?id=90ebdd33fe9ee8ca9ff0336ba069d3e8061bd4ba-11413071-images-thumbs&n=13",
+      "hero_image": "https://avatars.mds.yandex.net/i?id=90ebdd33fe9ee8ca9ff0336ba069d3e8061bd4ba-11413071-images-thumbs&n=13",
+      "best_known_for": ["Mineral sular", "Dağ havası", "İstirahət zonası"],
+      "mountain_routes": [
+        {
+          "route_name": "Oğuz Dağları Yürüyüşü",
+          "difficulty": "Orta",
+          "length_km": 10.0,
+          "estimated_time_hours": 5,
+          "highlights": ["Dağ zirvələri", "Təmiz hava", "Panoramik mənzərə"],
+          "safety_tips": ["Hava şəraitini yoxlayın"],
+          "ticket_price_azn": 20
+        }
+      ],
+      "main_attractions": [
+        {
+          "name": "Oğuz Mineral Suları",
+          "type": "Sağlamlıq",
+          "description": "Müalicəvi mineral su bulaqları.",
+          "recommended_visiting_season": "İl boyu",
+          "ticket_price_azn": 10
+        }
+      ],
+      "transportation": {
+        "how_to_get_there": "Bakıdan avtomobillə 4 saat, avtobus xidməti.",
+        "public_transport": ["Avtobus"],
+        "taxi_estimated_cost_azn": "100-130",
+        "road_quality": "Yaxşı"
+      },
+      "best_time_to_visit": "May-Oktyabr",
+      "tags": ["Dağlar", "Sağlamlıq", "İstirahət"]
+    },
+    {
+      "id": "qobustan",
+      "region_name": "Qobustan",
+      "short_description": "Qədim qaya rəsmləri və palçıq vulkanları ilə UNESCO Dünya İrsi.",
+      "image": "https://avatars.mds.yandex.net/i?id=abbd6376c033ef73b1a520f21fa1446150f2f36a-8312020-images-thumbs&n=13",
+      "hero_image": "https://avatars.mds.yandex.net/i?id=abbd6376c033ef73b1a520f21fa1446150f2f36a-8312020-images-thumbs&n=13",
+      "best_known_for": ["Qaya rəsmləri", "Palçıq vulkanları", "Arxeologiya"],
+      "mountain_routes": [
+        {
+          "route_name": "Qaya Rəsmləri Marşrutu",
+          "difficulty": "Asan",
+          "length_km": 4.0,
+          "estimated_time_hours": 2.5,
+          "highlights": ["Qədim rəsmlər", "Arxeoloji tapıntılar", "Unikal landşaft"],
+          "safety_tips": ["Günəşdən qorunun", "Su götürün"],
+          "ticket_price_azn": 15
+        }
+      ],
+      "main_attractions": [
+        {
+          "name": "Qobustan Qaya Rəsmləri",
+          "type": "Tarix",
+          "description": "40,000 illik qədim qaya rəsmləri, UNESCO Dünya İrsi.",
+          "recommended_visiting_season": "İl boyu",
+          "ticket_price_azn": 20
+        },
+        {
+          "name": "Palçıq Vulkanları",
+          "type": "Təbiət",
+          "description": "Dünyanın ən çox palçıq vulkanı olan ərazi.",
+          "recommended_visiting_season": "İl boyu",
+          "ticket_price_azn": 10
+        }
+      ],
+      "transportation": {
+        "how_to_get_there": "Bakıdan avtomobillə 1 saat, tur xidmətləri.",
+        "public_transport": ["Tur avtobusları"],
+        "taxi_estimated_cost_azn": "40-60",
+        "road_quality": "Yaxşı"
+      },
+      "best_time_to_visit": "Mart-May, Sentyabr-Noyabr",
+      "tags": ["Tarix", "UNESCO", "Arxeologiya", "Təbiət"]
+    },
+    {
+      "id": "shamakhi",
+      "region_name": "Şamaxı",
+      "short_description": "Qədim şəhər, astrofizika rəsədxanası və üzüm bağları.",
+      "image": "https://horosho-tam.ru/thumb/1024/expics/ba/f3/3284abe55670644c70c46240ab3bf3ba.jpg",
+      "hero_image": "https://horosho-tam.ru/thumb/1024/expics/ba/f3/3284abe55670644c70c46240ab3bf3ba.jpg",
+      "best_known_for": ["Rəsədxana", "Cümə məscidi", "Üzüm bağları"],
+      "mountain_routes": [
+        {
+          "route_name": "Pirkuli Kəndi Marşrutu",
+          "difficulty": "Orta",
+          "length_km": 12.0,
+          "estimated_time_hours": 5.5,
+          "highlights": ["Dağ kəndi", "Üzüm bağları", "Tarixi yerlər"],
+          "safety_tips": ["Bələdçi tövsiyə olunur"],
+          "ticket_price_azn": 25
+        }
+      ],
+      "main_attractions": [
+        {
+          "name": "Şamaxı Astrofizika Rəsədxanası",
+          "type": "Elm",
+          "description": "Qafqazın ən böyük astrofizika rəsədxanası.",
+          "recommended_visiting_season": "İl boyu",
+          "ticket_price_azn": 15
+        },
+        {
+          "name": "Cümə Məscidi",
+          "type": "Tarix",
+          "description": "Qafqazın ən qədim məscidlərindən biri (8-ci əsr).",
+          "recommended_visiting_season": "İl boyu",
+          "ticket_price_azn": 5
+        }
+      ],
+      "transportation": {
+        "how_to_get_there": "Bakıdan avtomobillə 2 saat, avtobus xidməti.",
+        "public_transport": ["Avtobus"],
+        "taxi_estimated_cost_azn": "60-80",
+        "road_quality": "Yaxşı"
+      },
+      "best_time_to_visit": "Aprel-Oktyabr",
+      "tags": ["Tarix", "Elm", "Üzüm", "Mədəniyyət"]
+    },
+    {
+      "id": "goycay",
+      "region_name": "Göyçay",
+      "short_description": "Nar festivalı və meyvə bağları ilə məşhur bölgə.",
+      "image": "https://avatars.mds.yandex.net/i?id=94f13ae57fa7779e63fac20febe6aec2f7ee41e1-6637353-images-thumbs&n=13",
+      "hero_image": "https://avatars.mds.yandex.net/i?id=94f13ae57fa7779e63fac20febe6aec2f7ee41e1-6637353-images-thumbs&n=13",
+      "best_known_for": ["Nar festivalı", "Meyvə bağları", "Kənd təsərrüfatı"],
+      "mountain_routes": [
+        {
+          "route_name": "Meyvə Bağları Velomarşrutu",
+          "difficulty": "Asan",
+          "length_km": 10.0,
+          "estimated_time_hours": 3,
+          "highlights": ["Nar bağları", "Kənd mənzərəsi", "Təmiz hava"],
+          "safety_tips": ["Velosiped tövsiyə olunur"],
+          "ticket_price_azn": 10
+        }
+      ],
+      "main_attractions": [
+        {
+          "name": "Nar Festivalı",
+          "type": "Mədəniyyət",
+          "description": "İllik nar festivalı və mədəni tədbirlər (Oktyabr).",
+          "recommended_visiting_season": "Oktyabr",
+          "ticket_price_azn": 5
+        }
+      ],
+      "transportation": {
+        "how_to_get_there": "Bakıdan avtomobillə 3 saat, avtobus xidməti.",
+        "public_transport": ["Avtobus"],
+        "taxi_estimated_cost_azn": "80-100",
+        "road_quality": "Yaxşı"
+      },
+      "best_time_to_visit": "Sentyabr-Oktyabr",
+      "tags": ["Kənd təsərrüfatı", "Festival", "Mədəniyyət"]
+    },
+    {
+      "id": "agsu",
+      "region_name": "Ağsu",
+      "short_description": "Dağlıq və düzənlik ərazilərin qovşağında, meyvə bağları.",
+      "image": "https://2.bp.blogspot.com/-FzEC0t_QzXA/T0Af6EXACFI/AAAAAAAAJt0/dKW0wTW_Jp0/s1600/Agsu+Mountains+Agsu+Azerbaijan+%25288%2529.jpg",
+      "hero_image": "https://2.bp.blogspot.com/-FzEC0t_QzXA/T0Af6EXACFI/AAAAAAAAJt0/dKW0wTW_Jp0/s1600/Agsu+Mountains+Agsu+Azerbaijan+%25288%2529.jpg",
+      "best_known_for": ["Meyvə bağları", "Dağ mənzərələri", "Kənd həyatı"],
+      "mountain_routes": [
+        {
+          "route_name": "Ağsu Dağları Gəzintisi",
+          "difficulty": "Orta",
+          "length_km": 9.0,
+          "estimated_time_hours": 4.5,
+          "highlights": ["Dağ yolları", "Kənd mənzərəsi", "Təbii bulaqlar"],
+          "safety_tips": ["Rahat ayaqqabı geyinin"],
+          "ticket_price_azn": 15
+        }
+      ],
+      "main_attractions": [
+        {
+          "name": "Ağsu Meyvə Bağları",
+          "type": "Təbiət",
+          "description": "Geniş alma və armud bağları.",
+          "recommended_visiting_season": "Avqust-Oktyabr",
+          "ticket_price_azn": 5
+        }
+      ],
+      "transportation": {
+        "how_to_get_there": "Bakıdan avtomobillə 2.5 saat, avtobus xidməti.",
+        "public_transport": ["Avtobus"],
+        "taxi_estimated_cost_azn": "70-90",
+        "road_quality": "Yaxşı"
+      },
+      "best_time_to_visit": "May-Oktyabr",
+      "tags": ["Kənd təsərrüfatı", "Dağlar", "Təbiət"]
+    },
+    {
+      "id": "astara",
+      "region_name": "Astara",
+      "short_description": "İran sərhədində subtropik bölgə, çay plantasiyaları.",
+      "image": "https://avatars.mds.yandex.net/i?id=b4e08da2127bf5361475d9474e2126555a0d2185-4739197-images-thumbs&n=13",
+      "hero_image": "https://avatars.mds.yandex.net/i?id=b4e08da2127bf5361475d9474e2126555a0d2185-4739197-images-thumbs&n=13",
+      "best_known_for": ["Çay plantasiyaları", "Subtropik iqlim", "Yaşıl təbiət"],
+      "mountain_routes": [
+        {
+          "route_name": "Çay Plantasiyaları Marşrutu",
+          "difficulty": "Asan",
+          "length_km": 7.0,
+          "estimated_time_hours": 3,
+          "highlights": ["Çay bağları", "Yaşıl təpələr", "Subtropik bitkilər"],
+          "safety_tips": ["Yağışlı hava ehtimalı"],
+          "ticket_price_azn": 12
+        }
+      ],
+      "main_attractions": [
+        {
+          "name": "Astara Çay Plantasiyaları",
+          "type": "Kənd təsərrüfatı",
+          "description": "Azərbaycanın əsas çay istehsal bölgəsi.",
+          "recommended_visiting_season": "May-Sentyabr",
+          "ticket_price_azn": 10
+        }
+      ],
+      "transportation": {
+        "how_to_get_there": "Bakıdan avtomobillə 4.5 saat, avtobus xidməti.",
+        "public_transport": ["Avtobus"],
+        "taxi_estimated_cost_azn": "110-140",
+        "road_quality": "Yaxşı"
+      },
+      "best_time_to_visit": "May-Sentyabr",
+      "tags": ["Subtropik", "Çay", "Təbiət"]
+    },
+    {
+      "id": "masalli",
+      "region_name": "Masallı",
+      "short_description": "Subtropik iqlim, çay və sitrus bağları, dəniz sahili.",
+      "image": "https://avatars.mds.yandex.net/i?id=797753593b12eef50bdcad03e7c4c10a_l-5233258-images-thumbs&n=13",
+      "hero_image": "https://avatars.mds.yandex.net/i?id=797753593b12eef50bdcad03e7c4c10a_l-5233258-images-thumbs&n=13",
+      "best_known_for": ["Çay bağları", "Sitrus", "Sahil zonası"],
+      "mountain_routes": [
+        {
+          "route_name": "Talış Dağları Yürüyüşü",
+          "difficulty": "Orta",
+          "length_km": 11.0,
+          "estimated_time_hours": 5.5,
+          "highlights": ["Dağ mənzərələri", "Subtropik meşə", "Çay plantasiyaları"],
+          "safety_tips": ["Bələdçi tövsiyə olunur"],
+          "ticket_price_azn": 25
+        }
+      ],
+      "main_attractions": [
+        {
+          "name": "Masallı Çay Fabrikləri",
+          "type": "Sənaye",
+          "description": "Çay istehsalı və muzey.",
+          "recommended_visiting_season": "İl boyu",
+          "ticket_price_azn": 8
+        }
+      ],
+      "transportation": {
+        "how_to_get_there": "Bakıdan avtomobillə 3.5 saat, avtobus xidməti.",
+        "public_transport": ["Avtobus"],
+        "taxi_estimated_cost_azn": "90-120",
+        "road_quality": "Yaxşı"
+      },
+      "best_time_to_visit": "May-Oktyabr",
+      "tags": ["Subtropik", "Çay", "Sahil", "Kənd təsərrüfatı"]
+    },
+    {
+      "id": "yardimli",
+      "region_name": "Yardımlı",
+      "short_description": "Talış dağlarında sakit dağlıq rayon, təmiz hava.",
+      "image": "https://photocentra.ru/images/main82/823301_main.jpg",
+      "hero_image": "https://photocentra.ru/images/main82/823301_main.jpg",
+      "best_known_for": ["Dağ kəndləri", "Təmiz hava", "Sakit təbiət"],
+      "mountain_routes": [
+        {
+          "route_name": "Yardımlı Dağları Marşrutu",
+          "difficulty": "Orta",
+          "length_km": 10.0,
+          "estimated_time_hours": 5,
+          "highlights": ["Dağ zirvələri", "Kənd həyatı", "Panoramik mənzərə"],
+          "safety_tips": ["Bələdçi tövsiyə olunur"],
+          "ticket_price_azn": 20
+        }
+      ],
+      "main_attractions": [
+        {
+          "name": "Yardımlı Dağ Kəndləri",
+          "type": "Mədəniyyət",
+          "description": "Ənənəvi dağ kəndləri və yerli həyat tərzi.",
+          "recommended_visiting_season": "May-Sentyabr",
+          "ticket_price_azn": 5
+        }
+      ],
+      "transportation": {
+        "how_to_get_there": "Bakıdan avtomobillə 4.5 saat, avtobus xidməti məhdud.",
+        "public_transport": ["Avtobus (məhdud)"],
+        "taxi_estimated_cost_azn": "120-150",
+        "road_quality": "Orta"
+      },
+      "best_time_to_visit": "May-Sentyabr",
+      "tags": ["Dağlar", "Kənd həyatı", "Təbiət"]
+    },
+    {
+      "id": "jalilabad",
+      "region_name": "Cəlilabad",
+      "short_description": "Aran düzündə kənd təsərrüfatı bölgəsi, pambıq və taxıl.",
+      "image": "https://avatars.mds.yandex.net/i?id=d1818e19c1eca9f411ed9cadb7fc0a19_l-8185142-images-thumbs&n=13",
+      "hero_image": "https://avatars.mds.yandex.net/i?id=d1818e19c1eca9f411ed9cadb7fc0a19_l-8185142-images-thumbs&n=13",
+      "best_known_for": ["Pambıq sahələri", "Kənd təsərrüfatı", "Düzənlik"],
+      "mountain_routes": [
+        {
+          "route_name": "Aran Düzü Velomarşrutu",
+          "difficulty": "Asan",
+          "length_km": 12.0,
+          "estimated_time_hours": 3,
+          "highlights": ["Düzənlik mənzərəsi", "Pambıq sahələri", "Kənd həyatı"],
+          "safety_tips": ["Velosiped tövsiyə olunur"],
+          "ticket_price_azn": 8
+        }
+      ],
+      "main_attractions": [
+        {
+          "name": "Cəlilabad Pambıq Sahələri",
+          "type": "Kənd təsərrüfatı",
+          "description": "Geniş pambıq plantasiyaları və aqrar mədəniyyət.",
+          "recommended_visiting_season": "Avqust-Oktyabr",
+          "ticket_price_azn": 5
+        }
+      ],
+      "transportation": {
+        "how_to_get_there": "Bakıdan avtomobillə 3 saat, avtobus xidməti.",
+        "public_transport": ["Avtobus"],
+        "taxi_estimated_cost_azn": "80-100",
+        "road_quality": "Yaxşı"
+      },
+      "best_time_to_visit": "Aprel-Oktyabr",
+      "tags": ["Kənd təsərrüfatı", "Düzənlik"]
+    },
+    {
+      "id": "bilasuvar",
+      "region_name": "Biləsuvar",
+      "short_description": "Cənub Azərbaycanda kənd təsərrüfatı və düzənlik ərazisi.",
+      "image": "https://avatars.mds.yandex.net/i?id=e3e47d2c6cae3809aae2e3432cfd8806_l-5238850-images-thumbs&n=13",
+      "hero_image": "https://avatars.mds.yandex.net/i?id=e3e47d2c6cae3809aae2e3432cfd8806_l-5238850-images-thumbs&n=13",
+      "best_known_for": ["Taxıl sahələri", "Kənd həyatı", "Sakit ərazi"],
+      "mountain_routes": [
+        {
+          "route_name": "Düzənlik Gəzintisi",
+          "difficulty": "Asan",
+          "length_km": 8.0,
+          "estimated_time_hours": 3,
+          "highlights": ["Taxıl sahələri", "Kənd mənzərəsi", "Quş müşahidəsi"],
+          "safety_tips": ["Su götürün"],
+          "ticket_price_azn": 5
+        }
+      ],
+      "main_attractions": [
+        {
+          "name": "Biləsuvar Kənd Təsərrüfatı Muzey",
+          "type": "Mədəniyyət",
+          "description": "Ənənəvi kənd təsərrüfatı alətləri və tarix.",
+          "recommended_visiting_season": "İl boyu",
+          "ticket_price_azn": 3
+        }
+      ],
+      "transportation": {
+        "how_to_get_there": "Bakıdan avtomobillə 3 saat, avtobus xidməti.",
+        "public_transport": ["Avtobus"],
+        "taxi_estimated_cost_azn": "80-100",
+        "road_quality": "Yaxşı"
+      },
+      "best_time_to_visit": "Aprel-Oktyabr",
+      "tags": ["Kənd təsərrüfatı", "Düzənlik"]
+    },
+    {
+      "id": "saatli",
+      "region_name": "Saatlı",
+      "short_description": "Mərkəzi Azərbaycanda kənd təsərrüfatı rayonu.",
+      "image": "https://avatars.mds.yandex.net/i?id=454622d965fd59e76c94af42eb47f7e7_l-5194885-images-thumbs&n=13",
+      "hero_image": "https://avatars.mds.yandex.net/i?id=454622d965fd59e76c94af42eb47f7e7_l-5194885-images-thumbs&n=13",
+      "best_known_for": ["Pambıq", "Taxıl", "Kənd həyatı"],
+      "mountain_routes": [
+        {
+          "route_name": "Kənd Yolları Velomarşrutu",
+          "difficulty": "Asan",
+          "length_km": 10.0,
+          "estimated_time_hours": 3,
+          "highlights": ["Kənd mənzərəsi", "Tarla landşaftları", "Sakit yollar"],
+          "safety_tips": ["Velosiped tövsiyə olunur"],
+          "ticket_price_azn": 5
+        }
+      ],
+      "main_attractions": [
+        {
+          "name": "Saatlı Tarixi Mərkəzi",
+          "type": "Tarix",
+          "description": "Kiçik tarixi binalar və yerli mədəniyyət.",
+          "recommended_visiting_season": "İl boyu",
+          "ticket_price_azn": 3
+        }
+      ],
+      "transportation": {
+        "how_to_get_there": "Bakıdan avtomobillə 2.5 saat, avtobus xidməti.",
+        "public_transport": ["Avtobus"],
+        "taxi_estimated_cost_azn": "70-90",
+        "road_quality": "Yaxşı"
+      },
+      "best_time_to_visit": "Aprel-Oktyabr",
+      "tags": ["Kənd təsərrüfatı", "Düzənlik"]
+    },
+    {
+      "id": "imishli",
+      "region_name": "İmişli",
+      "short_description": "Aran düzündə kənd təsərrüfatı və düzənlik rayonu.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Imishli_city%2C_Aerial_3.jpg/960px-Imishli_city%2C_Aerial_3.jpg",
+      "hero_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Imishli_city%2C_Aerial_3.jpg/960px-Imishli_city%2C_Aerial_3.jpg",
+      "best_known_for": ["Taxıl", "Pambıq", "Düzənlik"],
+      "mountain_routes": [
+        {
+          "route_name": "Düzənlik Velomarşrutu",
+          "difficulty": "Asan",
+          "length_km": 12.0,
+          "estimated_time_hours": 3,
+          "highlights": ["Geniş düzənlik", "Tarla mənzərəsi", "Sakit yollar"],
+          "safety_tips": ["Su götürün"],
+          "ticket_price_azn": 5
+        }
+      ],
+      "main_attractions": [
+        {
+          "name": "İmişli Kənd Mədəniyyəti Mərkəzi",
+          "type": "Mədəniyyət",
+          "description": "Yerli ənənələr və kənd həyatı.",
+          "recommended_visiting_season": "İl boyu",
+          "ticket_price_azn": 3
+        }
+      ],
+      "transportation": {
+        "how_to_get_there": "Bakıdan avtomobillə 2 saat, avtobus xidməti.",
+        "public_transport": ["Avtobus"],
+        "taxi_estimated_cost_azn": "60-80",
+        "road_quality": "Yaxşı"
+      },
+      "best_time_to_visit": "Aprel-Oktyabr",
+      "tags": ["Kənd təsərrüfatı", "Düzənlik"]
+    },
+    {
+      "id": "sabirabad",
+      "region_name": "Sabirabad",
+      "short_description": "Kür çayı sahilində kənd təsərrüfatı bölgəsi.",
+      "image": "https://avatars.mds.yandex.net/i?id=8b83d871edd77697c9a8ceee140c07850c16c2c4-10549345-images-thumbs&n=13",
+      "hero_image": "https://avatars.mds.yandex.net/i?id=8b83d871edd77697c9a8ceee140c07850c16c2c4-10549345-images-thumbs&n=13",
+      "best_known_for": ["Kür çayı", "Pambıq", "Balıqçılıq"],
+      "mountain_routes": [
+        {
+          "route_name": "Kür Sahili Gəzintisi",
+          "difficulty": "Asan",
+          "length_km": 7.0,
+          "estimated_time_hours": 3,
+          "highlights": ["Çay mənzərəsi", "Balıqçılıq yerləri", "Quş müşahidəsi"],
+          "safety_tips": ["Günəş şapkası götürün"],
+          "ticket_price_azn": 5
+        }
+      ],
+      "main_attractions": [
+        {
+          "name": "Kür Çayı Sahili",
+          "type": "Təbiət",
+          "description": "Çay sahilində istirahət və balıqçılıq.",
+          "recommended_visiting_season": "May-Sentyabr",
+          "ticket_price_azn": 5
+        }
+      ],
+      "transportation": {
+        "how_to_get_there": "Bakıdan avtomobillə 2 saat, avtobus xidməti.",
+        "public_transport": ["Avtobus"],
+        "taxi_estimated_cost_azn": "60-80",
+        "road_quality": "Yaxşı"
+      },
+      "best_time_to_visit": "May-Sentyabr",
+      "tags": ["Çay", "Kənd təsərrüfatı", "Balıqçılıq"]
+    },
+    {
+      "id": "salyan",
+      "region_name": "Salyan",
+      "short_description": "Xəzər sahilində balıqçılıq və neft sənayesi bölgəsi.",
+      "image": "https://avatars.mds.yandex.net/i?id=06d1b4ac6e0fd898a02fe0b28f1e2927_l-4146380-images-thumbs&n=13",
+      "hero_image": "https://avatars.mds.yandex.net/i?id=06d1b4ac6e0fd898a02fe0b28f1e2927_l-4146380-images-thumbs&n=13",
+      "best_known_for": ["Balıqçılıq", "Xəzər sahili", "Neft"],
+      "mountain_routes": [
+        {
+          "route_name": "Sahil Zonası Gəzintisi",
+          "difficulty": "Asan",
+          "length_km": 8.0,
+          "estimated_time_hours": 3,
+          "highlights": ["Dəniz mənzərəsi", "Balıqçı kəndləri", "Quş müşahidəsi"],
+          "safety_tips": ["Günəşdən qorunun"],
+          "ticket_price_azn": 8
+        }
+      ],
+      "main_attractions": [
+        {
+          "name": "Salyan Balıqçılıq Limanı",
+          "type": "Sənaye",
+          "description": "Ənənəvi balıqçılıq və dəniz məhsulları.",
+          "recommended_visiting_season": "İl boyu",
+          "ticket_price_azn": 5
+        }
+      ],
+      "transportation": {
+        "how_to_get_there": "Bakıdan avtomobillə 2.5 saat, avtobus xidməti.",
+        "public_transport": ["Avtobus"],
+        "taxi_estimated_cost_azn": "70-90",
+        "road_quality": "Yaxşı"
+      },
+      "best_time_to_visit": "Aprel-Oktyabr",
+      "tags": ["Sahil", "Balıqçılıq", "Sənaye"]
+    },
+    {
+      "id": "neftchala",
+      "region_name": "Neftçala",
+      "short_description": "Xəzər sahilində neft və qaz sənayesi bölgəsi.",
+      "image": "https://i.haqqin.az/169880_src.jpg",
+      "hero_image": "https://i.haqqin.az/169880_src.jpg",
+      "best_known_for": ["Neft sənayesi", "Sahil", "Balıqçılıq"],
+      "mountain_routes": [
+        {
+          "route_name": "Sahil Gəzintisi",
+          "difficulty": "Asan",
+          "length_km": 6.0,
+          "estimated_time_hours": 2.5,
+          "highlights": ["Dəniz mənzərəsi", "Sənaye landşaftı", "Quş müşahidəsi"],
+          "safety_tips": ["Günəş şapkası götürün"],
+          "ticket_price_azn": 5
+        }
+      ],
+      "main_attractions": [
+        {
+          "name": "Neftçala Sahili",
+          "type": "Təbiət",
+          "description": "Xəzər dənizi sahilində istirahət zonası.",
+          "recommended_visiting_season": "May-Sentyabr",
+          "ticket_price_azn": 5
+        }
+      ],
+      "transportation": {
+        "how_to_get_there": "Bakıdan avtomobillə 2.5 saat, avtobus xidməti.",
+        "public_transport": ["Avtobus"],
+        "taxi_estimated_cost_azn": "70-90",
+        "road_quality": "Yaxşı"
+      },
+      "best_time_to_visit": "May-Sentyabr",
+      "tags": ["Sahil", "Sənaye", "Balıqçılıq"]
+    },
+    {
+      "id": "haciqabul",
+      "region_name": "Hacıqabul",
+      "short_description": "Mərkəzi nəqliyyat qovşağı, göl və düzənlik ərazisi.",
+      "image": "https://avatars.mds.yandex.net/i?id=5a2b8e6871c1f09c255c338e6aef684f664cc0ab-15408539-images-thumbs&n=13",
+      "hero_image": "https://avatars.mds.yandex.net/i?id=5a2b8e6871c1f09c255c338e6aef684f664cc0ab-15408539-images-thumbs&n=13",
+      "best_known_for": ["Hacıqabul gölü", "Nəqliyyat", "Düzənlik"],
+      "mountain_routes": [
+        {
+          "route_name": "Göl Sahili Gəzintisi",
+          "difficulty": "Asan",
+          "length_km": 5.0,
+          "estimated_time_hours": 2,
+          "highlights": ["Göl mənzərəsi", "Quş müşahidəsi", "Sakit təbiət"],
+          "safety_tips": ["Su götürün"],
+          "ticket_price_azn": 5
+        }
+      ],
+      "main_attractions": [
+        {
+          "name": "Hacıqabul Gölü",
+          "type": "Təbiət",
+          "description": "Təbii göl və quş müşahidəsi zonası.",
+          "recommended_visiting_season": "Mart-May, Sentyabr-Noyabr",
+          "ticket_price_azn": 8
+        }
+      ],
+      "transportation": {
+        "how_to_get_there": "Bakıdan avtomobillə 1.5 saat, qatar və avtobus.",
+        "public_transport": ["Qatar", "Avtobus"],
+        "taxi_estimated_cost_azn": "50-70",
+        "road_quality": "Yaxşı"
+      },
+      "best_time_to_visit": "Mart-May, Sentyabr-Noyabr",
+      "tags": ["Göl", "Quş müşahidəsi", "Nəqliyyat"]
+    },
+    {
+      "id": "kurdamir",
+      "region_name": "Kürdəmir",
+      "short_description": "Aran düzündə kənd təsərrüfatı və tarixi bölgə.",
+      "image": "https://avatars.mds.yandex.net/i?id=b98a6fa1af77012e343e8dca088d226b2c9e537c-4902992-images-thumbs&n=13",
+      "hero_image": "https://avatars.mds.yandex.net/i?id=b98a6fa1af77012e343e8dca088d226b2c9e537c-4902992-images-thumbs&n=13",
+      "best_known_for": ["Pambıq", "Taxıl", "Tarixi yerlər"],
+      "mountain_routes": [
+        {
+          "route_name": "Kənd Yolları Marşrutu",
+          "difficulty": "Asan",
+          "length_km": 9.0,
+          "estimated_time_hours": 3,
+          "highlights": ["Tarla mənzərəsi", "Kənd həyatı", "Sakit yollar"],
+          "safety_tips": ["Velosiped tövsiyə olunur"],
+          "ticket_price_azn": 5
+        }
+      ],
+      "main_attractions": [
+        {
+          "name": "Kürdəmir Tarixi Mərkəzi",
+          "type": "Tarix",
+          "description": "Qədim binalar və yerli mədəniyyət.",
+          "recommended_visiting_season": "İl boyu",
+          "ticket_price_azn": 5
+        }
+      ],
+      "transportation": {
+        "how_to_get_there": "Bakıdan avtomobillə 3 saat, avtobus xidməti.",
+        "public_transport": ["Avtobus"],
+        "taxi_estimated_cost_azn": "80-100",
+        "road_quality": "Yaxşı"
+      },
+      "best_time_to_visit": "Aprel-Oktyabr",
+      "tags": ["Kənd təsərrüfatı", "Tarix", "Düzənlik"]
+    },
+    {
+      "id": "ucar",
+      "region_name": "Ucar",
+      "short_description": "Dağlıq və düzənlik ərazilərin qovşağında, meyvə bağları.",
+      "image": "https://avatars.mds.yandex.net/i?id=74083755650861a82230ae5c210f566315c87fe2-12439486-images-thumbs&n=13",
+      "hero_image": "https://avatars.mds.yandex.net/i?id=74083755650861a82230ae5c210f566315c87fe2-12439486-images-thumbs&n=13",
+      "best_known_for": ["Meyvə bağları", "Dağ mənzərələri", "Kənd həyatı"],
+      "mountain_routes": [
+        {
+          "route_name": "Dağətəyi Gəzintisi",
+          "difficulty": "Orta",
+          "length_km": 10.0,
+          "estimated_time_hours": 4.5,
+          "highlights": ["Dağ mənzərəsi", "Meyvə bağları", "Kənd yolları"],
+          "safety_tips": ["Rahat ayaqqabı geyinin"],
+          "ticket_price_azn": 15
+        }
+      ],
+      "main_attractions": [
+        {
+          "name": "Ucar Meyvə Bağları",
+          "type": "Kənd təsərrüfatı",
+          "description": "Alma, armud və digər meyvə bağları.",
+          "recommended_visiting_season": "Avqust-Oktyabr",
+          "ticket_price_azn": 5
+        }
+      ],
+      "transportation": {
+        "how_to_get_there": "Bakıdan avtomobillə 3 saat, avtobus xidməti.",
+        "public_transport": ["Avtobus"],
+        "taxi_estimated_cost_azn": "80-100",
+        "road_quality": "Yaxşı"
+      },
+      "best_time_to_visit": "May-Oktyabr",
+      "tags": ["Kənd təsərrüfatı", "Dağlar", "Meyvə"]
+    },
+    {
+      "id": "zardab",
+      "region_name": "Zərdab",
+      "short_description": "Aran düzündə sakit kənd təsərrüfatı rayonu.",
+      "image": "https://avatars.mds.yandex.net/i?id=016cc9af6a08ea6d94ae9961ceeddf71_l-5116207-images-thumbs&n=13",
+      "hero_image": "https://avatars.mds.yandex.net/i?id=016cc9af6a08ea6d94ae9961ceeddf71_l-5116207-images-thumbs&n=13",
+      "best_known_for": ["Taxıl", "Pambıq", "Sakit ərazi"],
+      "mountain_routes": [
+        {
+          "route_name": "Düzənlik Velomarşrutu",
+          "difficulty": "Asan",
+          "length_km": 11.0,
+          "estimated_time_hours": 3,
+          "highlights": ["Geniş düzənlik", "Tarla landşaftları", "Kənd mənzərəsi"],
+          "safety_tips": ["Velosiped tövsiyə olunur"],
+          "ticket_price_azn": 5
+        }
+      ],
+      "main_attractions": [
+        {
+          "name": "Zərdab Kənd Mədəniyyəti",
+          "type": "Mədəniyyət",
+          "description": "Ənənəvi kənd həyatı və mədəniyyət.",
+          "recommended_visiting_season": "İl boyu",
+          "ticket_price_azn": 3
+        }
+      ],
+      "transportation": {
+        "how_to_get_there": "Bakıdan avtomobillə 3 saat, avtobus xidməti.",
+        "public_transport": ["Avtobus"],
+        "taxi_estimated_cost_azn": "80-100",
+        "road_quality": "Yaxşı"
+      },
+      "best_time_to_visit": "Aprel-Oktyabr",
+      "tags": ["Kənd təsərrüfatı", "Düzənlik"]
+    },
+    {
+      "id": "agdash",
+      "region_name": "Ağdaş",
+      "short_description": "Mərkəzi Azərbaycanda kənd təsərrüfatı və tarixi bölgə.",
+      "image": "https://caliber.az/media/photos/original/dde4eef99dc22a86f45d08ecedccb222.jpeg",
+      "hero_image": "https://caliber.az/media/photos/original/dde4eef99dc22a86f45d08ecedccb222.jpeg",
+      "best_known_for": ["Taxıl", "Tarixi yerlər", "Kənd həyatı"],
+      "mountain_routes": [
+        {
+          "route_name": "Kənd Marşrutu",
+          "difficulty": "Asan",
+          "length_km": 8.0,
+          "estimated_time_hours": 3,
+          "highlights": ["Kənd mənzərəsi", "Tarixi yerlər", "Tarla yolları"],
+          "safety_tips": ["Su götürün"],
+          "ticket_price_azn": 5
+        }
+      ],
+      "main_attractions": [
+        {
+          "name": "Ağdaş Tarixi Abidələri",
+          "type": "Tarix",
+          "description": "Qədim tarixi abidələr və məqbərələr.",
+          "recommended_visiting_season": "İl boyu",
+          "ticket_price_azn": 5
+        }
+      ],
+      "transportation": {
+        "how_to_get_there": "Bakıdan avtomobillə 3.5 saat, avtobus xidməti.",
+        "public_transport": ["Avtobus"],
+        "taxi_estimated_cost_azn": "90-110",
+        "road_quality": "Yaxşı"
+      },
+      "best_time_to_visit": "Aprel-Oktyabr",
+      "tags": ["Kənd təsərrüfatı", "Tarix", "Düzənlik"]
+    },
+    {
+      "id": "barda",
+      "region_name": "Bərdə",
+      "short_description": "Qədim Qafqaz Albaniyasının paytaxtı, zəngin tarix.",
+      "image": "https://mincom.gov.az/resized/fit1600x900/center/pages/1904/1688541673435.jpg",
+      "hero_image": "https://mincom.gov.az/resized/fit1600x900/center/pages/1904/1688541673435.jpg",
+      "best_known_for": ["Qədim paytaxt", "Tarixi abidələr", "Arxeologiya"],
+      "mountain_routes": [
+        {
+          "route_name": "Tarixi Yerlər Marşrutu",
+          "difficulty": "Asan",
+          "length_km": 6.0,
+          "estimated_time_hours": 3,
+          "highlights": ["Qədim qalalar", "Arxeoloji tapıntılar", "Tarixi mərkəz"],
+          "safety_tips": ["Bələdçi tövsiyə olunur"],
+          "ticket_price_azn": 15
+        }
+      ],
+      "main_attractions": [
+        {
+          "name": "Bərdə Qalası",
+          "type": "Tarix",
+          "description": "Qafqaz Albaniyasının qədim paytaxt qalası.",
+          "recommended_visiting_season": "İl boyu",
+          "ticket_price_azn": 10
+        },
+        {
+          "name": "Bərdə Arxeologiya Muzeyi",
+          "type": "Muzey",
+          "description": "Qədim tapıntılar və tarixi eksponatlar.",
+          "recommended_visiting_season": "İl boyu",
+          "ticket_price_azn": 8
+        }
+      ],
+      "transportation": {
+        "how_to_get_there": "Bakıdan avtomobillə 4 saat, avtobus xidməti.",
+        "public_transport": ["Avtobus"],
+        "taxi_estimated_cost_azn": "100-130",
+        "road_quality": "Yaxşı"
+      },
+      "best_time_to_visit": "Aprel-Oktyabr",
+      "tags": ["Tarix", "Arxeologiya", "Mədəniyyət"]
+    },
+    {
+      "id": "tartar",
+      "region_name": "Tərtər",
+      "short_description": "Azad edilmiş ərazi, tarixi və mədəni bərpa prosesi.",
+      "image": "https://images.oxu.az/2019/01/10/17/25/31/51f8b6e1-08ec-4eb4-9dea-5b016e5db909/terter_river_bridge_100119_04:1200.jpg",
+      "hero_image": "https://images.unsplash.com/photo-1542401886-65d6c61db217?w=1920&h=1080&fit=crop&hue=95",
+      "best_known_for": ["Tarixi yerlər", "Bərpa", "Mədəni irs"],
+      "mountain_routes": [
+        {
+          "route_name": "Tarixi Marşrut",
+          "difficulty": "Orta",
+          "length_km": 10.0,
+          "estimated_time_hours": 5,
+          "highlights": ["Tarixi abidələr", "Bərpa işləri", "Mədəni irs"],
+          "safety_tips": ["Bələdçi mütləqdir", "Təhlükəsizlik qaydalarına riayət edin"],
+          "ticket_price_azn": 20
+        }
+      ],
+      "main_attractions": [
+        {
+          "name": "Tərtər Tarixi Mərkəzi",
+          "type": "Tarix",
+          "description": "Bərpa olunan tarixi abidələr və mərkəz.",
+          "recommended_visiting_season": "İl boyu",
+          "ticket_price_azn": 10
+        }
+      ],
+      "transportation": {
+        "how_to_get_there": "Bakıdan avtomobillə 4.5 saat, xüsusi icazə tələb oluna bilər.",
+        "public_transport": ["Məhdud"],
+        "taxi_estimated_cost_azn": "120-150",
+        "road_quality": "Bərpa olunur"
+      },
+      "best_time_to_visit": "Aprel-Oktyabr",
+      "tags": ["Tarix", "Bərpa", "Mədəniyyət"]
+    },
+    {
+      "id": "goranboy",
+      "region_name": "Goranboy",
+      "short_description": "Qərb Azərbaycanda kənd təsərrüfatı və tarixi bölgə.",
+      "image": "https://idp.gov.az/uploads/photos/3c8f26f74c24a8125740ad2f94cdb4e3.jpg",
+      "hero_image": "https://idp.gov.az/uploads/photos/3c8f26f74c24a8125740ad2f94cdb4e3.jpg",
+      "best_known_for": ["Taxıl", "Üzüm", "Tarixi yerlər"],
+      "mountain_routes": [
+        {
+          "route_name": "Kənd Marşrutu",
+          "difficulty": "Asan",
+          "length_km": 9.0,
+          "estimated_time_hours": 3.5,
+          "highlights": ["Üzüm bağları", "Kənd mənzərəsi", "Tarixi yerlər"],
+          "safety_tips": ["Rahat ayaqqabı geyinin"],
+          "ticket_price_azn": 10
+        }
+      ],
+      "main_attractions": [
+        {
+          "name": "Goranboy Üzüm Bağları",
+          "type": "Kənd təsərrüfatı",
+          "description": "Geniş üzüm plantasiyaları və şərabçılıq.",
+          "recommended_visiting_season": "Avqust-Oktyabr",
+          "ticket_price_azn": 8
+        }
+      ],
+      "transportation": {
+        "how_to_get_there": "Bakıdan avtomobillə 5 saat, avtobus xidməti.",
+        "public_transport": ["Avtobus"],
+        "taxi_estimated_cost_azn": "120-150",
+        "road_quality": "Yaxşı"
+      },
+      "best_time_to_visit": "Aprel-Oktyabr",
+      "tags": ["Kənd təsərrüfatı", "Üzüm", "Tarix"]
+    },
+    {
+      "id": "samukh",
+      "region_name": "Samux",
+      "short_description": "Qərb Azərbaycanda kənd təsərrüfatı və alman kəndləri.",
+      "image": "https://i.ytimg.com/vi/DREAqXfcovU/hqdefault.jpg?sqp=-oaymwEmCOADEOgC8quKqQMa8AEB-AH-BIAC4AOKAgwIABABGGEgZShSMA8=&rs=AOn4CLCxFLdC7qadgOZ3hAPUjngOUrFVoQ",
+      "hero_image": "https://i.ytimg.com/vi/DREAqXfcovU/hqdefault.jpg?sqp=-oaymwEmCOADEOgC8quKqQMa8AEB-AH-BIAC4AOKAgwIABABGGEgZShSMA8=&rs=AOn4CLCxFLdC7qadgOZ3hAPUjngOUrFVoQ",
+      "best_known_for": ["Alman kəndləri", "Taxıl", "Mədəniyyət"],
+      "mountain_routes": [
+        {
+          "route_name": "Alman Kəndləri Marşrutu",
+          "difficulty": "Asan",
+          "length_km": 8.0,
+          "estimated_time_hours": 3,
+          "highlights": ["Tarixi alman kəndləri", "Mədəni irs", "Kənd həyatı"],
+          "safety_tips": ["Rahat geyim geyinin"],
+          "ticket_price_azn": 10
+        }
+      ],
+      "main_attractions": [
+        {
+          "name": "Alman Kəndləri",
+          "type": "Mədəniyyət",
+          "description": "19-cu əsrdə yaradılmış alman köçkünlərinin kəndləri.",
+          "recommended_visiting_season": "İl boyu",
+          "ticket_price_azn": 5
+        }
+      ],
+      "transportation": {
+        "how_to_get_there": "Bakıdan avtomobillə 5 saat, avtobus xidməti.",
+        "public_transport": ["Avtobus"],
+        "taxi_estimated_cost_azn": "120-150",
+        "road_quality": "Yaxşı"
+      },
+      "best_time_to_visit": "Aprel-Oktyabr",
+      "tags": ["Mədəniyyət", "Tarix", "Kənd təsərrüfatı"]
+    },
+    {
+      "id": "shamkir",
+      "region_name": "Şəmkir",
+      "short_description": "Qərb Azərbaycanda kənd təsərrüfatı və su anbarı.",
+      "image": "https://avatars.mds.yandex.net/get-altay/5495309/2a0000017e62c31a577cf3792d97a3d0c5c8/XXL_height",
+      "hero_image": "https://avatars.mds.yandex.net/get-altay/5495309/2a0000017e62c31a577cf3792d97a3d0c5c8/XXL_height",
+      "best_known_for": ["Su anbarı", "Taxıl", "Üzüm"],
+      "mountain_routes": [
+        {
+          "route_name": "Su Anbarı Sahil Marşrutu",
+          "difficulty": "Asan",
+          "length_km": 7.0,
+          "estimated_time_hours": 3,
+          "highlights": ["Su mənzərəsi", "Balıqçılıq", "Quş müşahidəsi"],
+          "safety_tips": ["Günəş şapkası götürün"],
+          "ticket_price_azn": 8
+        }
+      ],
+      "main_attractions": [
+        {
+          "name": "Şəmkir Su Anbarı",
+          "type": "Təbiət",
+          "description": "Böyük su anbarı və istirahət zonası.",
+          "recommended_visiting_season": "May-Sentyabr",
+          "ticket_price_azn": 10
+        }
+      ],
+      "transportation": {
+        "how_to_get_there": "Bakıdan avtomobillə 5 saat, avtobus xidməti.",
+        "public_transport": ["Avtobus"],
+        "taxi_estimated_cost_azn": "120-150",
+        "road_quality": "Yaxşı"
+      },
+      "best_time_to_visit": "May-Sentyabr",
+      "tags": ["Su", "Kənd təsərrüfatı", "İstirahət"]
+    },
+    {
+      "id": "tovuz",
+      "region_name": "Tovuz",
+      "short_description": "Gürcüstan sərhədində kənd təsərrüfatı və tarixi bölgə.",
+      "image": "https://avatars.mds.yandex.net/i?id=638a230f058c86d38e592b7c3df1e30e24eecbf1-12513672-images-thumbs&n=13",
+      "hero_image": "https://avatars.mds.yandex.net/i?id=638a230f058c86d38e592b7c3df1e30e24eecbf1-12513672-images-thumbs&n=13",
+      "best_known_for": ["Taxıl", "Üzüm", "Tarixi yerlər"],
+      "mountain_routes": [
+        {
+          "route_name": "Dağətəyi Marşrutu",
+          "difficulty": "Orta",
+          "length_km": 11.0,
+          "estimated_time_hours": 5,
+          "highlights": ["Dağ mənzərəsi", "Üzüm bağları", "Kənd yolları"],
+          "safety_tips": ["Bələdçi tövsiyə olunur"],
+          "ticket_price_azn": 15
+        }
+      ],
+      "main_attractions": [
+        {
+          "name": "Tovuz Üzüm Bağları",
+          "type": "Kənd təsərrüfatı",
+          "description": "Keyfiyyətli üzüm və şərab istehsalı.",
+          "recommended_visiting_season": "Avqust-Oktyabr",
+          "ticket_price_azn": 10
+        }
+      ],
+      "transportation": {
+        "how_to_get_there": "Bakıdan avtomobillə 5.5 saat, avtobus xidməti.",
+        "public_transport": ["Avtobus"],
+        "taxi_estimated_cost_azn": "130-160",
+        "road_quality": "Yaxşı"
+      },
+      "best_time_to_visit": "Aprel-Oktyabr",
+      "tags": ["Kənd təsərrüfatı", "Üzüm", "Dağlar"]
+    },
+    {
+      "id": "qazax",
+      "region_name": "Qazax",
+      "short_description": "Gürcüstan və Ermənistan sərhədində tarixi bölgə.",
+      "image": "https://avatars.mds.yandex.net/i?id=eeae9559c296a8f733411a4004f8c937_l-5254476-images-thumbs&n=13",
+      "hero_image": "https://avatars.mds.yandex.net/i?id=eeae9559c296a8f733411a4004f8c937_l-5254476-images-thumbs&n=13",
+      "best_known_for": ["Tarixi abidələr", "Üzüm", "Sərhəd bölgəsi"],
+      "mountain_routes": [
+        {
+          "route_name": "Tarixi Yerlər Marşrutu",
+          "difficulty": "Asan",
+          "length_km": 8.0,
+          "estimated_time_hours": 3.5,
+          "highlights": ["Qədim abidələr", "Tarixi mərkəz", "Mədəni irs"],
+          "safety_tips": ["Bələdçi tövsiyə olunur"],
+          "ticket_price_azn": 12
+        }
+      ],
+      "main_attractions": [
+        {
+          "name": "Qazax Tarixi Abidələri",
+          "type": "Tarix",
+          "description": "Qədim məscidlər və tarixi binalar.",
+          "recommended_visiting_season": "İl boyu",
+          "ticket_price_azn": 8
+        }
+      ],
+      "transportation": {
+        "how_to_get_there": "Bakıdan avtomobillə 6 saat, avtobus xidməti.",
+        "public_transport": ["Avtobus"],
+        "taxi_estimated_cost_azn": "140-170",
+        "road_quality": "Yaxşı"
+      },
+      "best_time_to_visit": "Aprel-Oktyabr",
+      "tags": ["Tarix", "Sərhəd", "Mədəniyyət"]
+    },
+    {
+      "id": "agstafa",
+      "region_name": "Ağstafa",
+      "short_description": "Gürcüstan sərhədində kənd təsərrüfatı bölgəsi.",
+      "image": "https://i.okcdn.ru/i?r=BEH7dJIjJJO0pjyIf46vcZ9AgiPErNUbfp3xCmp4FhkXWbz6EFW3vptfTzXGVSK-5ES5CqdNleAEysdLnA60zUgQ&fn=external_8",
+      "hero_image": "https://i.okcdn.ru/i?r=BEH7dJIjJJO0pjyIf46vcZ9AgiPErNUbfp3xCmp4FhkXWbz6EFW3vptfTzXGVSK-5ES5CqdNleAEysdLnA60zUgQ&fn=external_8",
+      "best_known_for": ["Taxıl", "Üzüm", "Sərhəd ticarəti"],
+      "mountain_routes": [
+        {
+          "route_name": "Kənd Marşrutu",
+          "difficulty": "Asan",
+          "length_km": 9.0,
+          "estimated_time_hours": 3,
+          "highlights": ["Kənd mənzərəsi", "Tarla yolları", "Sərhəd zonası"],
+          "safety_tips": ["Su götürün"],
+          "ticket_price_azn": 8
+        }
+      ],
+      "main_attractions": [
+        {
+          "name": "Ağstafa Kənd Təsərrüfatı",
+          "type": "Kənd təsərrüfatı",
+          "description": "Geniş taxıl və üzüm sahələri.",
+          "recommended_visiting_season": "Avqust-Oktyabr",
+          "ticket_price_azn": 5
+        }
+      ],
+      "transportation": {
+        "how_to_get_there": "Bakıdan avtomobillə 6 saat, avtobus xidməti.",
+        "public_transport": ["Avtobus"],
+        "taxi_estimated_cost_azn": "140-170",
+        "road_quality": "Yaxşı"
+      },
+      "best_time_to_visit": "Aprel-Oktyabr",
+      "tags": ["Kənd təsərrüfatı", "Sərhəd"]
+    },
+    {
+      "id": "dashkasan",
+      "region_name": "Daşkəsən",
+      "short_description": "Dağlıq bölgə, mədən sənayesi və təbii gözəlliklər.",
+      "image": "https://www.komandirovka.ru/upload/iblock/183/183af08df4964059a3c5d2ba919b90da.jpg",
+      "hero_image": "https://www.komandirovka.ru/upload/iblock/183/183af08df4964059a3c5d2ba919b90da.jpg",
+      "best_known_for": ["Dağlar", "Mədən sənayesi", "Təbiət"],
+      "mountain_routes": [
+        {
+          "route_name": "Dağ Zirvələri Yürüyüşü",
+          "difficulty": "Çətin",
+          "length_km": 15.0,
+          "estimated_time_hours": 7,
+          "highlights": ["Yüksək zirvələr", "Panoramik mənzərə", "Dağ landşaftı"],
+          "safety_tips": ["Təcrübəli bələdçi mütləqdir", "Alpinist avadanlığı"],
+          "ticket_price_azn": 35
+        }
+      ],
+      "main_attractions": [
+        {
+          "name": "Daşkəsən Dağları",
+          "type": "Təbiət",
+          "description": "Yüksək dağlar və təbii mənzərələr.",
+          "recommended_visiting_season": "İyun-Sentyabr",
+          "ticket_price_azn": 20
+        }
+      ],
+      "transportation": {
+        "how_to_get_there": "Bakıdan avtomobillə 6 saat, avtobus xidməti məhdud.",
+        "public_transport": ["Avtobus (məhdud)"],
+        "taxi_estimated_cost_azn": "150-180",
+        "road_quality": "Orta"
+      },
+      "best_time_to_visit": "İyun-Sentyabr",
+      "tags": ["Dağlar", "Sənaye", "Təbiət"]
+    },
+    {
+      "id": "gadabay",
+      "region_name": "Gədəbəy",
+      "short_description": "Dağlıq bölgə, qızıl mədənləri və təbii gözəlliklər.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/G%C9%99d%C9%99b%C9%99y8.jpg/1600px-G%C9%99d%C9%99b%C9%99y8.jpg",
+      "hero_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/G%C9%99d%C9%99b%C9%99y8.jpg/1600px-G%C9%99d%C9%99b%C9%99y8.jpg",
+      "best_known_for": ["Qızıl mədənləri", "Dağlar", "Meşələr"],
+      "mountain_routes": [
+        {
+          "route_name": "Meşə Dağları Marşrutu",
+          "difficulty": "Orta",
+          "length_km": 12.0,
+          "estimated_time_hours": 6,
+          "highlights": ["Sıx meşələr", "Dağ zirvələri", "Təbii bulaqlar"],
+          "safety_tips": ["Bələdçi tövsiyə olunur"],
+          "ticket_price_azn": 25
+        }
+      ],
+      "main_attractions": [
+        {
+          "name": "Gədəbəy Meşələri",
+          "type": "Təbiət",
+          "description": "Zəngin meşə örtüyü və dağ mənzərələri.",
+          "recommended_visiting_season": "May-Sentyabr",
+          "ticket_price_azn": 15
+        }
+      ],
+      "transportation": {
+        "how_to_get_there": "Bakıdan avtomobillə 6 saat, avtobus xidməti məhdud.",
+        "public_transport": ["Avtobus (məhdud)"],
+        "taxi_estimated_cost_azn": "150-180",
+        "road_quality": "Orta"
+      },
+      "best_time_to_visit": "May-Sentyabr",
+      "tags": ["Dağlar", "Meşə", "Sənaye"]
+    },
+    {
+      "id": "goygol",
+      "region_name": "Göygöl",
+      "short_description": "Gözəl göl, milli park və alman kəndləri.",
+      "image": "https://avatars.mds.yandex.net/i?id=4dcdb71350410a0a0f3ede9fb3fc9aab-4937949-images-thumbs&n=13",
+      "hero_image": "https://avatars.mds.yandex.net/i?id=4dcdb71350410a0a0f3ede9fb3fc9aab-4937949-images-thumbs&n=13",
+      "best_known_for": ["Göygöl gölü", "Milli park", "Alman kəndləri"],
+      "mountain_routes": [
+        {
+          "route_name": "Göygöl Milli Parkı Marşrutu",
+          "difficulty": "Orta",
+          "length_km": 10.0,
+          "estimated_time_hours": 5,
+          "highlights": ["Göygöl gölü", "Dağ mənzərələri", "Meşə yolları"],
+          "safety_tips": ["Bələdçi tövsiyə olunur"],
+          "ticket_price_azn": 25
+        }
+      ],
+      "main_attractions": [
+        {
+          "name": "Göygöl Milli Parkı",
+          "type": "Təbiət",
+          "description": "Gözəl göl və zəngin təbiət, UNESCO namizədi.",
+          "recommended_visiting_season": "May-Oktyabr",
+          "ticket_price_azn": 20
+        },
+        {
+          "name": "Heydər Əliyev Muzeyi",
+          "type": "Muzey",
+          "description": "Ümummilli liderin doğulduğu yer və muzey.",
+          "recommended_visiting_season": "İl boyu",
+          "ticket_price_azn": 5
+        }
+      ],
+      "transportation": {
+        "how_to_get_there": "Bakıdan avtomobillə 4.5 saat, avtobus xidməti.",
+        "public_transport": ["Avtobus"],
+        "taxi_estimated_cost_azn": "110-140",
+        "road_quality": "Yaxşı"
+      },
+      "best_time_to_visit": "May-Oktyabr",
+      "tags": ["Göl", "Milli park", "Təbiət", "Tarix"]
+    },
+    {
+      "id": "siyazan",
+      "region_name": "Siyəzən",
+      "short_description": "Xəzər sahilində sakit bölgə, çimərliklər.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/4/45/5_Barmaq_da%C4%9F%C4%B1_v%C9%99_ziyar%C9%99tgah%C4%B1.jpg",
+      "hero_image": "https://upload.wikimedia.org/wikipedia/commons/4/45/5_Barmaq_da%C4%9F%C4%B1_v%C9%99_ziyar%C9%99tgah%C4%B1.jpg",
+      "best_known_for": ["Sahil", "Çimərliklər", "Sakit istirahət"],
+      "mountain_routes": [
+        {
+          "route_name": "Sahil Gəzintisi",
+          "difficulty": "Asan",
+          "length_km": 6.0,
+          "estimated_time_hours": 2.5,
+          "highlights": ["Dəniz mənzərəsi", "Çimərlik zonaları", "Sakit təbiət"],
+          "safety_tips": ["Günəşdən qorunun"],
+          "ticket_price_azn": 5
+        }
+      ],
+      "main_attractions": [
+        {
+          "name": "Siyəzən Çimərlikləri",
+          "type": "İstirahət",
+          "description": "Sakit çimərlik zonaları və dəniz istirahəti.",
+          "recommended_visiting_season": "May-Sentyabr",
+          "ticket_price_azn": 10
+        }
+      ],
+      "transportation": {
+        "how_to_get_there": "Bakıdan avtomobillə 2 saat, avtobus xidməti.",
+        "public_transport": ["Avtobus"],
+        "taxi_estimated_cost_azn": "60-80",
+        "road_quality": "Yaxşı"
+      },
+      "best_time_to_visit": "May-Sentyabr",
+      "tags": ["Sahil", "Çimərlik", "İstirahət"]
+    },
+    {
+      "id": "khachmaz",
+      "region_name": "Xaçmaz",
+      "short_description": "Şimal-şərq sahil bölgəsi, çimərliklər və istirahət.",
+      "image": "https://avatars.mds.yandex.net/get-altay/13455884/2a0000019173a6ca02e29506dd168815f747/XXL_height",
+      "hero_image": "https://images.unsplash.com/photo-1502082553048-f009c37129b9?w=1920&h=1080&fit=crop&hue=205",
+      "best_known_for": ["Çimərliklər", "Sahil kurortları", "Dəniz istirahəti"],
+      "mountain_routes": [
+        {
+          "route_name": "Sahil Bulvarı Marşrutu",
+          "difficulty": "Asan",
+          "length_km": 7.0,
+          "estimated_time_hours": 3,
+          "highlights": ["Dəniz mənzərəsi", "Çimərlik zonaları", "İstirahət parkları"],
+          "safety_tips": ["Günəş kremi istifadə edin"],
+          "ticket_price_azn": 8
+        }
+      ],
+      "main_attractions": [
+        {
+          "name": "Xaçmaz Çimərlikləri",
+          "type": "İstirahət",
+          "description": "Məşhur çimərlik kurortları və dəniz istirahəti.",
+          "recommended_visiting_season": "İyun-Avqust",
+          "ticket_price_azn": 15
+        }
+      ],
+      "transportation": {
+        "how_to_get_there": "Bakıdan avtomobillə 2.5 saat, avtobus xidməti.",
+        "public_transport": ["Avtobus"],
+        "taxi_estimated_cost_azn": "70-90",
+        "road_quality": "Yaxşı"
+      },
+      "best_time_to_visit": "İyun-Avqust",
+      "tags": ["Sahil", "Çimərlik", "Kurort"]
+    },
+    {
+      "id": "shabran",
+      "region_name": "Şabran",
+      "short_description": "Sahil kurortları, tarixi qala və istirahət mərkəzi.",
+      "image": "https://images.unsplash.com/photo-1523712999610-f77fbcfc3843?w=1200&h=800&fit=crop&hue=215",
+      "hero_image": "https://images.unsplash.com/photo-1523712999610-f77fbcfc3843?w=1920&h=1080&fit=crop&hue=215",
+      "best_known_for": ["Çimərliklər", "Qala qalıqları", "Kurortlar"],
+      "mountain_routes": [
+        {
+          "route_name": "Tarixi Qala Marşrutu",
+          "difficulty": "Asan",
+          "length_km": 5.0,
+          "estimated_time_hours": 2.5,
+          "highlights": ["Qədim qala", "Tarixi abidələr", "Sahil mənzərəsi"],
+          "safety_tips": ["Rahat ayaqqabı geyinin"],
+          "ticket_price_azn": 10
+        }
+      ],
+      "main_attractions": [
+        {
+          "name": "Şabran Qalası",
+          "type": "Tarix",
+          "description": "Qədim müdafiə qalası qalıqları.",
+          "recommended_visiting_season": "İl boyu",
+          "ticket_price_azn": 8
+        },
+        {
+          "name": "Şabran Çimərlikləri",
+          "type": "İstirahət",
+          "description": "Sahil kurortları və istirahət zonaları.",
+          "recommended_visiting_season": "İyun-Avqust",
+          "ticket_price_azn": 12
+        }
+      ],
+      "transportation": {
+        "how_to_get_there": "Bakıdan avtomobillə 2 saat, avtobus xidməti.",
+        "public_transport": ["Avtobus"],
+        "taxi_estimated_cost_azn": "60-80",
+        "road_quality": "Yaxşı"
+      },
+      "best_time_to_visit": "May-Sentyabr",
+      "tags": ["Sahil", "Tarix", "Kurort"]
+    },
+    {
+      "id": "khizi",
+      "region_name": "Xızı",
+      "short_description": "Sahil və dağlıq ərazilərin qovşağında, təbii gözəlliklər.",
+      "image": "https://images.unsplash.com/photo-1495107334309-fcf20504a5ab?w=1200&h=800&fit=crop&hue=225",
+      "hero_image": "https://images.unsplash.com/photo-1495107334309-fcf20504a5ab?w=1920&h=1080&fit=crop&hue=225",
+      "best_known_for": ["Dağ və dəniz", "Təbii mənzərələr", "Sakit ərazi"],
+      "mountain_routes": [
+        {
+          "route_name": "Dağ-Sahil Marşrutu",
+          "difficulty": "Orta",
+          "length_km": 11.0,
+          "estimated_time_hours": 5,
+          "highlights": ["Dağ mənzərəsi", "Dəniz panoraması", "Təbii landşaft"],
+          "safety_tips": ["Bələdçi tövsiyə olunur"],
+          "ticket_price_azn": 20
+        }
+      ],
+      "main_attractions": [
+        {
+          "name": "Xızı Təbii Mənzərələri",
+          "type": "Təbiət",
+          "description": "Dağ və dənizin qovşağında unikal landşaft.",
+          "recommended_visiting_season": "May-Oktyabr",
+          "ticket_price_azn": 10
+        }
+      ],
+      "transportation": {
+        "how_to_get_there": "Bakıdan avtomobillə 1.5 saat, avtobus xidməti.",
+        "public_transport": ["Avtobus"],
+        "taxi_estimated_cost_azn": "50-70",
+        "road_quality": "Yaxşı"
+      },
+      "best_time_to_visit": "May-Oktyabr",
+      "tags": ["Dağlar", "Sahil", "Təbiət"]
+    },
+    {
+      "id": "absheron",
+      "region_name": "Abşeron",
+      "short_description": "Bakı ətrafında yarımada, tarixi və müasir cazibələr.",
+      "image": "https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?w=1200&h=800&fit=crop&hue=235",
+      "hero_image": "https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?w=1920&h=1080&fit=crop&hue=235",
+      "best_known_for": ["Atəşgah", "Yanar Dağ", "Qobustan"],
+      "mountain_routes": [
+        {
+          "route_name": "Tarixi Yerlər Turu",
+          "difficulty": "Asan",
+          "length_km": 8.0,
+          "estimated_time_hours": 4,
+          "highlights": ["Atəşgah məbədi", "Yanar Dağ", "Tarixi abidələr"],
+          "safety_tips": ["Tur bələdçisi tövsiyə olunur"],
+          "ticket_price_azn": 20
+        }
+      ],
+      "main_attractions": [
+        {
+          "name": "Atəşgah Məbədi",
+          "type": "Tarix",
+          "description": "Qədim atəşpərəstlik məbədi, UNESCO namizədi.",
+          "recommended_visiting_season": "İl boyu",
+          "ticket_price_azn": 10
+        },
+        {
+          "name": "Yanar Dağ",
+          "type": "Təbiət",
+          "description": "Təbii qaz alovunun daim yandığı unikal yer.",
+          "recommended_visiting_season": "İl boyu",
+          "ticket_price_azn": 8
+        }
+      ],
+      "transportation": {
+        "how_to_get_there": "Bakıdan avtomobillə 30-60 dəqiqə, tur xidmətləri.",
+        "public_transport": ["Avtobus", "Tur avtobusları"],
+        "taxi_estimated_cost_azn": "20-40",
+        "road_quality": "Əla"
+      },
+      "best_time_to_visit": "İl boyu",
+      "tags": ["Tarix", "Təbiət", "Turizm"]
+    },
+    {
+      "id": "shusha",
+      "region_name": "Şuşa",
+      "short_description": "Azərbaycanın mədəniyyət paytaxtı, azad edilmiş tarixi şəhər.",
+      "image": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=1200&h=800&fit=crop&hue=35",
+      "hero_image": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=1920&h=1080&fit=crop&hue=35",
+      "best_known_for": ["Mədəniyyət paytaxtı", "Tarixi abidələr", "Bərpa"],
+      "mountain_routes": [
+        {
+          "route_name": "Tarixi Şuşa Marşrutu",
+          "difficulty": "Orta",
+          "length_km": 8.0,
+          "estimated_time_hours": 4,
+          "highlights": ["Tarixi məscidlər", "Qalalar", "Mədəni irs"],
+          "safety_tips": ["Bələdçi mütləqdir", "Xüsusi icazə tələb olunur"],
+          "ticket_price_azn": 30
+        }
+      ],
+      "main_attractions": [
+        {
+          "name": "Şuşa Qalası",
+          "type": "Tarix",
+          "description": "Tarixi qala və müdafiə sistemləri.",
+          "recommended_visiting_season": "İl boyu",
+          "ticket_price_azn": 15
+        },
+        {
+          "name": "Cıdır Düzü",
+          "type": "Təbiət",
+          "description": "Panoramik mənzərəli tarixi meydan.",
+          "recommended_visiting_season": "İl boyu",
+          "ticket_price_azn": 10
+        }
+      ],
+      "transportation": {
+        "how_to_get_there": "Bakıdan avtomobillə 5-6 saat, xüsusi icazə tələb olunur.",
+        "public_transport": ["Məhdud"],
+        "taxi_estimated_cost_azn": "150-200",
+        "road_quality": "Bərpa olunur"
+      },
+      "best_time_to_visit": "May-Oktyabr",
+      "tags": ["Tarix", "Mədəniyyət", "Bərpa"]
+    },
+    {
+      "id": "khankandi",
+      "region_name": "Xankəndi",
+      "short_description": "Azad edilmiş şəhər, bərpa və inkişaf prosesi.",
+      "image": "https://images.unsplash.com/photo-1519904981063-b0cf448d479e?w=1200&h=800&fit=crop&hue=245",
+      "hero_image": "https://images.unsplash.com/photo-1519904981063-b0cf448d479e?w=1920&h=1080&fit=crop&hue=245",
+      "best_known_for": ["Bərpa", "Tarixi irs", "Yenidənqurma"],
+      "mountain_routes": [
+        {
+          "route_name": "Şəhər Bərpa Turu",
+          "difficulty": "Asan",
+          "length_km": 5.0,
+          "estimated_time_hours": 3,
+          "highlights": ["Bərpa işləri", "Tarixi binalar", "Yeni inkişaf"],
+          "safety_tips": ["Bələdçi mütləqdir", "Təhlükəsizlik qaydalarına riayət"],
+          "ticket_price_azn": 20
+        }
+      ],
+      "main_attractions": [
+        {
+          "name": "Xankəndi Tarixi Mərkəzi",
+          "type": "Tarix",
+          "description": "Bərpa olunan tarixi şəhər mərkəzi.",
+          "recommended_visiting_season": "İl boyu",
+          "ticket_price_azn": 10
+        }
+      ],
+      "transportation": {
+        "how_to_get_there": "Bakıdan avtomobillə 6 saat, xüsusi icazə tələb olunur.",
+        "public_transport": ["Məhdud"],
+        "taxi_estimated_cost_azn": "150-200",
+        "road_quality": "Bərpa olunur"
+      },
+      "best_time_to_visit": "Aprel-Oktyabr",
+      "tags": ["Bərpa", "Tarix", "İnkişaf"]
+    },
+    {
+      "id": "aghdam",
+      "region_name": "Ağdam",
+      "short_description": "Azad edilmiş şəhər, bərpa və yenidənqurma prosesi.",
+      "image": "https://images.unsplash.com/photo-1483728642387-6c3bdd6c93e5?w=1200&h=800&fit=crop&hue=255",
+      "hero_image": "https://images.unsplash.com/photo-1483728642387-6c3bdd6c93e5?w=1920&h=1080&fit=crop&hue=255",
+      "best_known_for": ["Bərpa", "Yenidənqurma", "Tarixi irs"],
+      "mountain_routes": [
+        {
+          "route_name": "Bərpa Zonası Turu",
+          "difficulty": "Asan",
+          "length_km": 6.0,
+          "estimated_time_hours": 3,
+          "highlights": ["Yenidənqurma", "Tarixi yerlər", "Gələcək planlar"],
+          "safety_tips": ["Bələdçi mütləqdir", "Xüsusi icazə tələb olunur"],
+          "ticket_price_azn": 20
+        }
+      ],
+      "main_attractions": [
+        {
+          "name": "Ağdam Məscidi",
+          "type": "Tarix",
+          "description": "Bərpa olunan tarixi məscid.",
+          "recommended_visiting_season": "İl boyu",
+          "ticket_price_azn": 10
+        }
+      ],
+      "transportation": {
+        "how_to_get_there": "Bakıdan avtomobillə 5 saat, xüsusi icazə tələb olunur.",
+        "public_transport": ["Məhdud"],
+        "taxi_estimated_cost_azn": "130-170",
+        "road_quality": "Bərpa olunur"
+      },
+      "best_time_to_visit": "Aprel-Oktyabr",
+      "tags": ["Bərpa", "Tarix", "Yenidənqurma"]
+    },
+    {
+      "id": "fuzuli",
+      "region_name": "Füzuli",
+      "short_description": "Azad edilmiş rayon, bərpa və inkişaf mərkəzi.",
+      "image": "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?w=1200&h=800&fit=crop&hue=265",
+      "hero_image": "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?w=1920&h=1080&fit=crop&hue=265",
+      "best_known_for": ["Bərpa", "Hava limanı", "Yeni inkişaf"],
+      "mountain_routes": [
+        {
+          "route_name": "İnkişaf Zonası Turu",
+          "difficulty": "Asan",
+          "length_km": 7.0,
+          "estimated_time_hours": 3,
+          "highlights": ["Yeni infrastruktur", "Bərpa işləri", "Gələcək layihələr"],
+          "safety_tips": ["Bələdçi mütləqdir"],
+          "ticket_price_azn": 20
+        }
+      ],
+      "main_attractions": [
+        {
+          "name": "Füzuli Beynəlxalq Hava Limanı",
+          "type": "Müasir",
+          "description": "Yeni tikilmiş beynəlxalq hava limanı.",
+          "recommended_visiting_season": "İl boyu",
+          "ticket_price_azn": 15
+        }
+      ],
+      "transportation": {
+        "how_to_get_there": "Bakıdan avtomobillə 4.5 saat və ya təyyarə.",
+        "public_transport": ["Təyyarə", "Avtobus"],
+        "taxi_estimated_cost_azn": "120-150",
+        "road_quality": "Yaxşı"
+      },
+      "best_time_to_visit": "İl boyu",
+      "tags": ["Bərpa", "Müasir", "İnkişaf"]
+    },
+    {
+      "id": "jabrayil",
+      "region_name": "Cəbrayıl",
+      "short_description": "Azad edilmiş rayon, bərpa prosesi və tarixi irs.",
+      "image": "https://images.unsplash.com/photo-1511593358241-7eea1f3c84e5?w=1200&h=800&fit=crop&hue=275",
+      "hero_image": "https://images.unsplash.com/photo-1511593358241-7eea1f3c84e5?w=1920&h=1080&fit=crop&hue=275",
+      "best_known_for": ["Bərpa", "Tarixi abidələr", "Yenidənqurma"],
+      "mountain_routes": [
+        {
+          "route_name": "Tarixi Yerlər Marşrutu",
+          "difficulty": "Orta",
+          "length_km": 8.0,
+          "estimated_time_hours": 4,
+          "highlights": ["Tarixi abidələr", "Bərpa zonaları", "Mədəni irs"],
+          "safety_tips": ["Bələdçi mütləqdir", "Xüsusi icazə tələb olunur"],
+          "ticket_price_azn": 25
+        }
+      ],
+      "main_attractions": [
+        {
+          "name": "Cəbrayıl Tarixi Abidələri",
+          "type": "Tarix",
+          "description": "Bərpa olunan tarixi və mədəni abidələr.",
+          "recommended_visiting_season": "İl boyu",
+          "ticket_price_azn": 10
+        }
+      ],
+      "transportation": {
+        "how_to_get_there": "Bakıdan avtomobillə 5 saat, xüsusi icazə tələb olunur.",
+        "public_transport": ["Məhdud"],
+        "taxi_estimated_cost_azn": "130-170",
+        "road_quality": "Bərpa olunur"
+      },
+      "best_time_to_visit": "Aprel-Oktyabr",
+      "tags": ["Bərpa", "Tarix", "Mədəniyyət"]
+    },
+    {
+      "id": "zangilan",
+      "region_name": "Zəngilan",
+      "short_description": "Azad edilmiş rayon, bərpa və inkişaf prosesi.",
+      "image": "https://images.unsplash.com/photo-1447752875215-b2761acb3c5d?w=1200&h=800&fit=crop&hue=285",
+      "hero_image": "https://images.unsplash.com/photo-1447752875215-b2761acb3c5d?w=1920&h=1080&fit=crop&hue=285",
+      "best_known_for": ["Bərpa", "Yeni yollar", "İnkişaf"],
+      "mountain_routes": [
+        {
+          "route_name": "Yenidənqurma Turu",
+          "difficulty": "Asan",
+          "length_km": 6.0,
+          "estimated_time_hours": 3,
+          "highlights": ["Yeni infrastruktur", "Bərpa işləri", "Tarixi yerlər"],
+          "safety_tips": ["Bələdçi mütləqdir"],
+          "ticket_price_azn": 20
+        }
+      ],
+      "main_attractions": [
+        {
+          "name": "Zəngilan Bərpa Mərkəzi",
+          "type": "Müasir",
+          "description": "Yenidənqurma və inkişaf işlərinin mərkəzi.",
+          "recommended_visiting_season": "İl boyu",
+          "ticket_price_azn": 10
+        }
+      ],
+      "transportation": {
+        "how_to_get_there": "Bakıdan avtomobillə 6 saat, xüsusi icazə tələb olunur.",
+        "public_transport": ["Məhdud"],
+        "taxi_estimated_cost_azn": "150-180",
+        "road_quality": "Bərpa olunur"
+      },
+      "best_time_to_visit": "Aprel-Oktyabr",
+      "tags": ["Bərpa", "İnkişaf", "Yenidənqurma"]
+    },
+    {
+      "id": "qubadli",
+      "region_name": "Qubadlı",
+      "short_description": "Azad edilmiş rayon, bərpa və yenidənqurma prosesi.",
+      "image": "https://images.unsplash.com/photo-1542401886-65d6c61db217?w=1200&h=800&fit=crop&hue=295",
+      "hero_image": "https://images.unsplash.com/photo-1542401886-65d6c61db217?w=1920&h=1080&fit=crop&hue=295",
+      "best_known_for": ["Bərpa", "Tarixi irs", "Yeni inkişaf"],
+      "mountain_routes": [
+        {
+          "route_name": "Bərpa Zonası Marşrutu",
+          "difficulty": "Orta",
+          "length_km": 9.0,
+          "estimated_time_hours": 4,
+          "highlights": ["Yenidənqurma", "Tarixi yerlər", "İnkişaf layihələri"],
+          "safety_tips": ["Bələdçi mütləqdir", "Xüsusi icazə tələb olunur"],
+          "ticket_price_azn": 25
+        }
+      ],
+      "main_attractions": [
+        {
+          "name": "Qubadlı Tarixi Mərkəzi",
+          "type": "Tarix",
+          "description": "Bərpa olunan tarixi mərkəz və abidələr.",
+          "recommended_visiting_season": "İl boyu",
+          "ticket_price_azn": 10
+        }
+      ],
+      "transportation": {
+        "how_to_get_there": "Bakıdan avtomobillə 6 saat, xüsusi icazə tələb olunur.",
+        "public_transport": ["Məhdud"],
+        "taxi_estimated_cost_azn": "150-180",
+        "road_quality": "Bərpa olunur"
+      },
+      "best_time_to_visit": "Aprel-Oktyabr",
+      "tags": ["Bərpa", "Tarix", "İnkişaf"]
+    },
+    {
+      "id": "kalbajar",
+      "region_name": "Kəlbəcər",
+      "short_description": "Azad edilmiş dağlıq rayon, mineral sular və təbii gözəlliklər.",
+      "image": "https://images.unsplash.com/photo-1501594907352-04cda38ebc29?w=1200&h=800&fit=crop&hue=305",
+      "hero_image": "https://images.unsplash.com/photo-1501594907352-04cda38ebc29?w=1920&h=1080&fit=crop&hue=305",
+      "best_known_for": ["Mineral sular", "Dağlar", "Bərpa"],
+      "mountain_routes": [
+        {
+          "route_name": "Dağ Marşrutu",
+          "difficulty": "Çətin",
+          "length_km": 14.0,
+          "estimated_time_hours": 7,
+          "highlights": ["Yüksək dağlar", "Mineral bulaqlar", "Təbii mənzərələr"],
+          "safety_tips": ["Təcrübəli bələdçi mütləqdir", "Xüsusi icazə tələb olunur"],
+          "ticket_price_azn": 40
+        }
+      ],
+      "main_attractions": [
+        {
+          "name": "Kəlbəcər Mineral Suları",
+          "type": "Sağlamlıq",
+          "description": "Müalicəvi mineral su bulaqları.",
+          "recommended_visiting_season": "İyun-Sentyabr",
+          "ticket_price_azn": 15
+        }
+      ],
+      "transportation": {
+        "how_to_get_there": "Bakıdan avtomobillə 7 saat, xüsusi icazə tələb olunur.",
+        "public_transport": ["Məhdud"],
+        "taxi_estimated_cost_azn": "170-200",
+        "road_quality": "Bərpa olunur"
+      },
+      "best_time_to_visit": "İyun-Sentyabr",
+      "tags": ["Dağlar", "Mineral sular", "Bərpa"]
+    },
+    {
+      "id": "lachin",
+      "region_name": "Laçın",
+      "short_description": "Azad edilmiş dağlıq rayon, bərpa və yenidənqurma.",
+      "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?w=1200&h=800&fit=crop&hue=315",
+      "hero_image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?w=1920&h=1080&fit=crop&hue=315",
+      "best_known_for": ["Dağlar", "Bərpa", "Tarixi yol"],
+      "mountain_routes": [
+        {
+          "route_name": "Dağlıq Marşrut",
+          "difficulty": "Çətin",
+          "length_km": 13.0,
+          "estimated_time_hours": 6.5,
+          "highlights": ["Dağ zirvələri", "Tarixi yollar", "Təbii landşaft"],
+          "safety_tips": ["Bələdçi mütləqdir", "Xüsusi icazə tələb olunur"],
+          "ticket_price_azn": 35
+        }
+      ],
+      "main_attractions": [
+        {
+          "name": "Laçın Dəhlizi",
+          "type": "Tarix",
+          "description": "Tarixi nəqliyyat dəhlizi və bərpa işləri.",
+          "recommended_visiting_season": "İyun-Sentyabr",
+          "ticket_price_azn": 15
+        }
+      ],
+      "transportation": {
+        "how_to_get_there": "Bakıdan avtomobillə 6.5 saat, xüsusi icazə tələb olunur.",
+        "public_transport": ["Məhdud"],
+        "taxi_estimated_cost_azn": "160-190",
+        "road_quality": "Bərpa olunur"
+      },
+      "best_time_to_visit": "İyun-Sentyabr",
+      "tags": ["Dağlar", "Bərpa", "Tarix"]
+    },
+    {
+      "id": "aghjabadi",
+      "region_name": "Ağcabədi",
+      "short_description": "Aran düzündə kənd təsərrüfatı və tarixi bölgə.",
+      "image": "https://images.unsplash.com/photo-1475924156734-496f6cac6ec1?w=1200&h=800&fit=crop&hue=325",
+      "hero_image": "https://images.unsplash.com/photo-1475924156734-496f6cac6ec1?w=1920&h=1080&fit=crop&hue=325",
+      "best_known_for": ["Pambıq", "Taxıl", "Kənd həyatı"],
+      "mountain_routes": [
+        {
+          "route_name": "Düzənlik Marşrutu",
+          "difficulty": "Asan",
+          "length_km": 10.0,
+          "estimated_time_hours": 3,
+          "highlights": ["Tarla mənzərəsi", "Kənd həyatı", "Pambıq sahələri"],
+          "safety_tips": ["Velosiped tövsiyə olunur"],
+          "ticket_price_azn": 8
+        }
+      ],
+      "main_attractions": [
+        {
+          "name": "Ağcabədi Tarixi Mərkəzi",
+          "type": "Tarix",
+          "description": "Qədim tarixi binalar və yerli mədəniyyət.",
+          "recommended_visiting_season": "İl boyu",
+          "ticket_price_azn": 5
+        }
+      ],
+      "transportation": {
+        "how_to_get_there": "Bakıdan avtomobillə 3.5 saat, avtobus xidməti.",
+        "public_transport": ["Avtobus"],
+        "taxi_estimated_cost_azn": "90-110",
+        "road_quality": "Yaxşı"
+      },
+      "best_time_to_visit": "Aprel-Oktyabr",
+      "tags": ["Kənd təsərrüfatı", "Tarix", "Düzənlik"]
+    },
+    {
+      "id": "beylagan",
+      "region_name": "Beyləqan",
+      "short_description": "Aran düzündə kənd təsərrüfatı rayonu.",
+      "image": "https://images.unsplash.com/photo-1426604966848-d7adac402bff?w=1200&h=800&fit=crop&hue=335",
+      "hero_image": "https://images.unsplash.com/photo-1426604966848-d7adac402bff?w=1920&h=1080&fit=crop&hue=335",
+      "best_known_for": ["Pambıq", "Taxıl", "Kənd mədəniyyəti"],
+      "mountain_routes": [
+        {
+          "route_name": "Kənd Yolları Marşrutu",
+          "difficulty": "Asan",
+          "length_km": 9.0,
+          "estimated_time_hours": 3,
+          "highlights": ["Tarla landşaftları", "Kənd həyatı", "Sakit yollar"],
+          "safety_tips": ["Su götürün"],
+          "ticket_price_azn": 5
+        }
+      ],
+      "main_attractions": [
+        {
+          "name": "Beyləqan Kənd Mədəniyyəti",
+          "type": "Mədəniyyət",
+          "description": "Ənənəvi kənd həyatı və mədəniyyət.",
+          "recommended_visiting_season": "İl boyu",
+          "ticket_price_azn": 3
+        }
+      ],
+      "transportation": {
+        "how_to_get_there": "Bakıdan avtomobillə 3 saat, avtobus xidməti.",
+        "public_transport": ["Avtobus"],
+        "taxi_estimated_cost_azn": "80-100",
+        "road_quality": "Yaxşı"
+      },
+      "best_time_to_visit": "Aprel-Oktyabr",
+      "tags": ["Kənd təsərrüfatı", "Düzənlik"]
+    },
+    {
+      "id": "ordubad",
+      "region_name": "Ordubad",
+      "short_description": "Naxçıvan MR-də dağlıq rayon, qədim tarix və təbiət.",
+      "image": "https://images.unsplash.com/photo-1418065460487-3e41a6c84dc5?w=1200&h=800&fit=crop&hue=345",
+      "hero_image": "https://images.unsplash.com/photo-1418065460487-3e41a6c84dc5?w=1920&h=1080&fit=crop&hue=345",
+      "best_known_for": ["Qədim abidələr", "Dağlar", "Milli park"],
+      "mountain_routes": [
+        {
+          "route_name": "Ordubad Milli Parkı Marşrutu",
+          "difficulty": "Orta",
+          "length_km": 12.0,
+          "estimated_time_hours": 6,
+          "highlights": ["Nadir heyvanlar", "Dağ mənzərələri", "Qədim yollar"],
+          "safety_tips": ["Bələdçi tövsiyə olunur"],
+          "ticket_price_azn": 30
+        }
+      ],
+      "main_attractions": [
+        {
+          "name": "Ordubad Milli Parkı",
+          "type": "Təbiət",
+          "description": "Nadir flora və fauna, leopard yaşayış sahəsi.",
+          "recommended_visiting_season": "May-Oktyabr",
+          "ticket_price_azn": 25
+        }
+      ],
+      "transportation": {
+        "how_to_get_there": "Naxçıvandan avtomobillə 2 saat.",
+        "public_transport": ["Avtobus"],
+        "taxi_estimated_cost_azn": "40-60",
+        "road_quality": "Yaxşı"
+      },
+      "best_time_to_visit": "May-Oktyabr",
+      "tags": ["Dağlar", "Milli park", "Təbiət"]
+    },
+    {
+      "id": "julfa",
+      "region_name": "Culfa",
+      "short_description": "Naxçıvan MR-də İran sərhədində tarixi bölgə.",
+      "image": "https://images.unsplash.com/photo-1469474968028-56623f02e42e?w=1200&h=800&fit=crop&hue=355",
+      "hero_image": "https://images.unsplash.com/photo-1469474968028-56623f02e42e?w=1920&h=1080&fit=crop&hue=355",
+      "best_known_for": ["Əlincə qalası", "Sərhəd", "Tarixi yerlər"],
+      "mountain_routes": [
+        {
+          "route_name": "Əlincə Qalası Yürüyüşü",
+          "difficulty": "Çətin",
+          "length_km": 10.0,
+          "estimated_time_hours": 5,
+          "highlights": ["Qədim qala", "Dağ zirvəsi", "Panoramik mənzərə"],
+          "safety_tips": ["Bələdçi mütləqdir", "Alpinist avadanlığı"],
+          "ticket_price_azn": 30
+        }
+      ],
+      "main_attractions": [
+        {
+          "name": "Əlincə Qalası",
+          "type": "Tarix",
+          "description": "Qədim müdafiə qalası, tarixi abidə.",
+          "recommended_visiting_season": "May-Oktyabr",
+          "ticket_price_azn": 15
+        }
+      ],
+      "transportation": {
+        "how_to_get_there": "Naxçıvandan avtomobillə 1.5 saat.",
+        "public_transport": ["Avtobus"],
+        "taxi_estimated_cost_azn": "30-50",
+        "road_quality": "Yaxşı"
+      },
+      "best_time_to_visit": "May-Oktyabr",
+      "tags": ["Tarix", "Qala", "Dağlar"]
+    },
+    {
+      "id": "shahbuz",
+      "region_name": "Şahbuz",
+      "short_description": "Naxçıvan MR-də dağlıq rayon, mineral sular.",
+      "image": "https://images.unsplash.com/photo-1472214103451-9374bd1c798e?w=1200&h=800&fit=crop&hue=5",
+      "hero_image": "https://images.unsplash.com/photo-1472214103451-9374bd1c798e?w=1920&h=1080&fit=crop&hue=5",
+      "best_known_for": ["Mineral sular", "Dağlar", "Təbii gözəlliklər"],
+      "mountain_routes": [
+        {
+          "route_name": "Şahbuz Dağları Marşrutu",
+          "difficulty": "Orta",
+          "length_km": 11.0,
+          "estimated_time_hours": 5.5,
+          "highlights": ["Dağ zirvələri", "Mineral bulaqlar", "Təbii mənzərələr"],
+          "safety_tips": ["Bələdçi tövsiyə olunur"],
+          "ticket_price_azn": 25
+        }
+      ],
+      "main_attractions": [
+        {
+          "name": "Şahbuz Mineral Suları",
+          "type": "Sağlamlıq",
+          "description": "Müalicəvi mineral su bulaqları.",
+          "recommended_visiting_season": "İl boyu",
+          "ticket_price_azn": 12
+        }
+      ],
+      "transportation": {
+        "how_to_get_there": "Naxçıvandan avtomobillə 1 saat.",
+        "public_transport": ["Avtobus"],
+        "taxi_estimated_cost_azn": "25-40",
+        "road_quality": "Yaxşı"
+      },
+      "best_time_to_visit": "May-Oktyabr",
+      "tags": ["Dağlar", "Mineral sular", "Sağlamlıq"]
+    },
+    {
+      "id": "sharur",
+      "region_name": "Şərur",
+      "short_description": "Naxçıvan MR-də düzənlik və dağlıq ərazi, tarixi yerlər.",
+      "image": "https://images.unsplash.com/photo-1465146344425-f00d5f5c8f07?w=1200&h=800&fit=crop&hue=15",
+      "hero_image": "https://images.unsplash.com/photo-1465146344425-f00d5f5c8f07?w=1920&h=1080&fit=crop&hue=15",
+      "best_known_for": ["Tarixi abidələr", "Kənd təsərrüfatı", "Dağ mənzərələri"],
+      "mountain_routes": [
+        {
+          "route_name": "Şərur Tarixi Marşrutu",
+          "difficulty": "Asan",
+          "length_km": 8.0,
+          "estimated_time_hours": 3.5,
+          "highlights": ["Qədim abidələr", "Kənd mənzərəsi", "Tarixi yerlər"],
+          "safety_tips": ["Rahat ayaqqabı geyinin"],
+          "ticket_price_azn": 15
+        }
+      ],
+      "main_attractions": [
+        {
+          "name": "Şərur Tarixi Abidələri",
+          "type": "Tarix",
+          "description": "Qədim məscidlər və tarixi binalar.",
+          "recommended_visiting_season": "İl boyu",
+          "ticket_price_azn": 8
+        }
+      ],
+      "transportation": {
+        "how_to_get_there": "Naxçıvandan avtomobillə 45 dəqiqə.",
+        "public_transport": ["Avtobus"],
+        "taxi_estimated_cost_azn": "20-35",
+        "road_quality": "Yaxşı"
+      },
+      "best_time_to_visit": "Aprel-Oktyabr",
+      "tags": ["Tarix", "Kənd təsərrüfatı", "Dağlar"]
+    },
+    {
+      "id": "babak",
+      "region_name": "Babək",
+      "short_description": "Naxçıvan MR-də tarixi və kənd təsərrüfatı bölgəsi.",
+      "image": "https://images.unsplash.com/photo-1439066615861-d1af74d74000?w=1200&h=800&fit=crop&hue=25",
+      "hero_image": "https://images.unsplash.com/photo-1439066615861-d1af74d74000?w=1920&h=1080&fit=crop&hue=25",
+      "best_known_for": ["Nəhəcir qalası", "Tarixi yerlər", "Kənd həyatı"],
+      "mountain_routes": [
+        {
+          "route_name": "Nəhəcir Qalası Marşrutu",
+          "difficulty": "Orta",
+          "length_km": 9.0,
+          "estimated_time_hours": 4.5,
+          "highlights": ["Qədim qala", "Dağ mənzərəsi", "Tarixi abidələr"],
+          "safety_tips": ["Bələdçi tövsiyə olunur"],
+          "ticket_price_azn": 20
+        }
+      ],
+      "main_attractions": [
+        {
+          "name": "Nəhəcir Qalası",
+          "type": "Tarix",
+          "description": "Qədim müdafiə qalası və tarixi yer.",
+          "recommended_visiting_season": "İl boyu",
+          "ticket_price_azn": 10
+        }
+      ],
+      "transportation": {
+        "how_to_get_there": "Naxçıvandan avtomobillə 30 dəqiqə.",
+        "public_transport": ["Avtobus"],
+        "taxi_estimated_cost_azn": "15-25",
+        "road_quality": "Yaxşı"
+      },
+      "best_time_to_visit": "Aprel-Oktyabr",
+      "tags": ["Tarix", "Qala", "Kənd həyatı"]
+    },
+    {
+      "id": "khojaly",
+      "region_name": "Xocalı",
+      "short_description": "Azad edilmiş rayon, xatirə və bərpa prosesi.",
+      "image": "https://images.unsplash.com/photo-1589308078059-be1415eab4c3?w=1200&h=800&fit=crop&hue=35",
+      "hero_image": "https://images.unsplash.com/photo-1589308078059-be1415eab4c3?w=1920&h=1080&fit=crop&hue=35",
+      "best_known_for": ["Xatirə", "Bərpa", "Tarixi irs"],
+      "mountain_routes": [
+        {
+          "route_name": "Xatirə Marşrutu",
+          "difficulty": "Asan",
+          "length_km": 5.0,
+          "estimated_time_hours": 3,
+          "highlights": ["Xatirə abidələri", "Tarixi yerlər", "Bərpa zonaları"],
+          "safety_tips": ["Bələdçi mütləqdir", "Xüsusi icazə tələb olunur"],
+          "ticket_price_azn": 15
+        }
+      ],
+      "main_attractions": [
+        {
+          "name": "Xocalı Xatirə Kompleksi",
+          "type": "Xatirə",
+          "description": "Xocalı soyqırımı qurbanlarının xatirəsinə kompleks.",
+          "recommended_visiting_season": "İl boyu",
+          "ticket_price_azn": 0
+        }
+      ],
+      "transportation": {
+        "how_to_get_there": "Bakıdan avtomobillə 5.5 saat, xüsusi icazə tələb olunur.",
+        "public_transport": ["Məhdud"],
+        "taxi_estimated_cost_azn": "140-170",
+        "road_quality": "Bərpa olunur"
+      },
+      "best_time_to_visit": "İl boyu",
+      "tags": ["Xatirə", "Bərpa", "Tarix"]
+    },
+    {
+      "id": "khojavand",
+      "region_name": "Xocavənd",
+      "short_description": "Azad edilmiş dağlıq rayon, bərpa prosesi.",
+      "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1200&h=800&fit=crop&hue=45",
+      "hero_image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1920&h=1080&fit=crop&hue=45",
+      "best_known_for": ["Dağlar", "Bərpa", "Tarixi yerlər"],
+      "mountain_routes": [
+        {
+          "route_name": "Dağlıq Bərpa Marşrutu",
+          "difficulty": "Orta",
+          "length_km": 10.0,
+          "estimated_time_hours": 5,
+          "highlights": ["Dağ mənzərələri", "Bərpa işləri", "Tarixi abidələr"],
+          "safety_tips": ["Bələdçi mütləqdir", "Xüsusi icazə tələb olunur"],
+          "ticket_price_azn": 25
+        }
+      ],
+      "main_attractions": [
+        {
+          "name": "Xocavənd Tarixi Mərkəzi",
+          "type": "Tarix",
+          "description": "Bərpa olunan tarixi mərkəz və abidələr.",
+          "recommended_visiting_season": "İl boyu",
+          "ticket_price_azn": 10
+        }
+      ],
+      "transportation": {
+        "how_to_get_there": "Bakıdan avtomobillə 6 saat, xüsusi icazə tələb olunur.",
+        "public_transport": ["Məhdud"],
+        "taxi_estimated_cost_azn": "150-180",
+        "road_quality": "Bərpa olunur"
+      },
+      "best_time_to_visit": "May-Oktyabr",
+      "tags": ["Dağlar", "Bərpa", "Tarix"]
+    }
+  ]
+}
